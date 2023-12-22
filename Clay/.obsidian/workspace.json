@@ -1,0 +1,160 @@
+{
+  "main": {
+    "id": "41bd93d2ed8c9898",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa872e4a7d69d3d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fc283d2964dd28c",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "game.canvas",
+                "viewState": {
+                  "x": 8743.42061007819,
+                  "y": 16908.132819814997,
+                  "zoom": -0.16333333333333433
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7fc67add3ac8e992",
+    "type": "split",
+    "children": [
+      {
+        "id": "58ab87377774c7e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee5076d01d254de8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b7db86946a3612a0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b03de667e1bf792d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dd787c7e6cf2151f",
+    "type": "split",
+    "children": [
+      {
+        "id": "fdadebfdccabf33a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15899be3be0f08af",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "game.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6b93f142aa2d4784",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "game.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "430dafad04543606",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "57ad1995c96793ee",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "game.canvas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1fc283d2964dd28c",
+  "lastOpenFiles": [
+    "compiled",
+    "game.canvas",
+    "placeholder-bg.png",
+    "Untitled.canvas"
+  ]
+}

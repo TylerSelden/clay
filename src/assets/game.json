@@ -1,0 +1,5400 @@
+{
+  "10de9c99602fece2": {
+    "text": "Good ${return (new Date()).getHours() < 12 ? 'morning' : (new Date()).getHours() < 18 ? 'afternoon' : 'evening'}.",
+    "to": [
+      "c5a56a0569c4f6a9"
+    ],
+    "from": [
+      "82899daf93a4dbed"
+    ]
+  },
+  "c5a56a0569c4f6a9": {
+    "text": "My name is Detective Samuel clay, and it looks like you are to be my partner of sorts on this mission.",
+    "to": [
+      "96174dd6f3105127"
+    ],
+    "from": [
+      "10de9c99602fece2"
+    ]
+  },
+  "df4db54eb3b9a0f3": {
+    "text": "## The Clay Files\n**Root node UUID**: 82899daf93a4dbed\n",
+    "to": [],
+    "from": []
+  },
+  "2b16e8c2c69fb27e": {
+    "text": "# Introductions",
+    "to": [],
+    "from": []
+  },
+  "1fa63a5c40fc7f2b": {
+    "text": "And in theory, you should be able to talk directly to me through your device.",
+    "to": [
+      "e4e70365d4945c5f",
+      "855b2cf75207e8d2"
+    ],
+    "from": [
+      "f7726ecce7496091"
+    ]
+  },
+  "855b2cf75207e8d2": {
+    "text": "Nice to meet you!",
+    "to": [
+      "d2112061e7f8c989"
+    ],
+    "from": [
+      "1fa63a5c40fc7f2b"
+    ]
+  },
+  "e4e70365d4945c5f": {
+    "text": "Like this?",
+    "to": [
+      "240d2ed1f724526a"
+    ],
+    "from": [
+      "1fa63a5c40fc7f2b"
+    ]
+  },
+  "240d2ed1f724526a": {
+    "text": "Exactly. Good to know the system works.",
+    "to": [
+      "a6d50a458c55f944"
+    ],
+    "from": [
+      "e4e70365d4945c5f"
+    ]
+  },
+  "d2112061e7f8c989": {
+    "text": "And you. Good to know that the system works.",
+    "to": [
+      "a6d50a458c55f944"
+    ],
+    "from": [
+      "855b2cf75207e8d2"
+    ]
+  },
+  "a6d50a458c55f944": {
+    "text": "Well, now that that's all out of the way...${outputSpeed = 250; loopDelay = 5000;}",
+    "to": [
+      "229c5c3ed5bf9e99"
+    ],
+    "from": [
+      "d2112061e7f8c989",
+      "240d2ed1f724526a"
+    ]
+  },
+  "229c5c3ed5bf9e99": {
+    "text": "<em class=\"cyan bold\">Let us begin.</em>${outputSpeed = 50; loopDelay = 2000;}",
+    "to": [
+      "54e754c902d5be1f"
+    ],
+    "from": [
+      "a6d50a458c55f944"
+    ]
+  },
+  "82899daf93a4dbed": {
+    "text": "[Connection initiated]",
+    "to": [
+      "10de9c99602fece2"
+    ],
+    "from": []
+  },
+  "54e754c902d5be1f": {
+    "text": "Now, before I get into the details, I should probably give you some background.",
+    "to": [
+      "50f6f7976b51883f"
+    ],
+    "from": [
+      "229c5c3ed5bf9e99"
+    ]
+  },
+  "50f6f7976b51883f": {
+    "text": "Five days ago, my office received an anonymous tip that a very well-known scientist has gone missing from his home village.",
+    "to": [
+      "5383928102e4c731"
+    ],
+    "from": [
+      "54e754c902d5be1f"
+    ]
+  },
+  "5383928102e4c731": {
+    "text": "His name? Professor <em class=\"red bold\">Victor Sterling</em>.",
+    "to": [
+      "c423a670e625a182"
+    ],
+    "from": [
+      "50f6f7976b51883f"
+    ]
+  },
+  "c423a670e625a182": {
+    "text": "I wouldn't be surprised if you recognize the name; He's made quite an impression on the scientific community.",
+    "to": [
+      "d03f1d2e35afafae"
+    ],
+    "from": [
+      "5383928102e4c731"
+    ]
+  },
+  "d03f1d2e35afafae": {
+    "text": "His primary area of research is chemistry, although he has dabbled in quantum physics a bit.",
+    "to": [
+      "6302a83cf9491dfa"
+    ],
+    "from": [
+      "c423a670e625a182"
+    ]
+  },
+  "6302a83cf9491dfa": {
+    "text": "He lives in a very small town called Silverborough.",
+    "to": [
+      "04470b4862e45f52"
+    ],
+    "from": [
+      "d03f1d2e35afafae"
+    ]
+  },
+  "0467b4249304f3ba": {
+    "text": "I'm actually on my way there as we speak. ",
+    "to": [
+      "83b558f4bb99b761",
+      "73526f4337bd1073"
+    ],
+    "from": [
+      "2ce3fdadeea4d5a5"
+    ]
+  },
+  "83b558f4bb99b761": {
+    "text": "Why?",
+    "to": [
+      "432619c5aa18d32f"
+    ],
+    "from": [
+      "0467b4249304f3ba"
+    ]
+  },
+  "432619c5aa18d32f": {
+    "text": "Well, I thought I might investigate this myself.",
+    "to": [
+      "7a1454dc10dd291f"
+    ],
+    "from": [
+      "83b558f4bb99b761"
+    ]
+  },
+  "7a1454dc10dd291f": {
+    "text": "I feel like the Silverborough Police haven't paid much mind to the case.",
+    "to": [
+      "1115ad5ff4e03d51"
+    ],
+    "from": [
+      "432619c5aa18d32f"
+    ]
+  },
+  "1115ad5ff4e03d51": {
+    "text": "But also...",
+    "to": [
+      "d2779c92f2f69a4c"
+    ],
+    "from": [
+      "7a1454dc10dd291f"
+    ]
+  },
+  "d2779c92f2f69a4c": {
+    "text": "Something about this case just seems <em>off</em>.",
+    "to": [
+      "20cc9b14ef47a133",
+      "e6226b526ab1dad9"
+    ],
+    "from": [
+      "1115ad5ff4e03d51"
+    ]
+  },
+  "20cc9b14ef47a133": {
+    "text": "What do you mean?",
+    "to": [
+      "709aab2db70b92fc"
+    ],
+    "from": [
+      "d2779c92f2f69a4c"
+    ]
+  },
+  "e6226b526ab1dad9": {
+    "text": "I'm not sure I follow.",
+    "to": [
+      "709aab2db70b92fc"
+    ],
+    "from": [
+      "d2779c92f2f69a4c"
+    ]
+  },
+  "42cd55fc92d27eac": {
+    "text": "What do you mean?",
+    "to": [
+      "547336320d9ccb1e"
+    ],
+    "from": [
+      "a0c541c46017bf9a"
+    ]
+  },
+  "6334efc11a2dbf89": {
+    "text": "I'm not sure I follow.",
+    "to": [
+      "547336320d9ccb1e"
+    ],
+    "from": [
+      "a0c541c46017bf9a"
+    ]
+  },
+  "73526f4337bd1073": {
+    "text": "Shouldn't you leave this to the local authorities?",
+    "to": [
+      "aa11eb7389628c22"
+    ],
+    "from": [
+      "0467b4249304f3ba"
+    ]
+  },
+  "aa11eb7389628c22": {
+    "text": "Under normal circumstances, I would.",
+    "to": [
+      "a0c541c46017bf9a"
+    ],
+    "from": [
+      "73526f4337bd1073"
+    ]
+  },
+  "a0c541c46017bf9a": {
+    "text": "However, something about this case just seems <em>off</em>.",
+    "to": [
+      "42cd55fc92d27eac",
+      "6334efc11a2dbf89"
+    ],
+    "from": [
+      "aa11eb7389628c22"
+    ]
+  },
+  "547336320d9ccb1e": {
+    "text": "Well, it's sort of difficult to explain.",
+    "to": [
+      "afda870a357687a4"
+    ],
+    "from": [
+      "42cd55fc92d27eac",
+      "6334efc11a2dbf89"
+    ]
+  },
+  "709aab2db70b92fc": {
+    "text": "Well, it's sort of difficult to explain.",
+    "to": [
+      "afda870a357687a4"
+    ],
+    "from": [
+      "e6226b526ab1dad9",
+      "20cc9b14ef47a133"
+    ]
+  },
+  "afda870a357687a4": {
+    "text": "I suppose you could call it a gut feeling, of sorts.",
+    "to": [
+      "a12f16b763f34165"
+    ],
+    "from": [
+      "709aab2db70b92fc",
+      "547336320d9ccb1e"
+    ]
+  },
+  "8a8efcc69db18cad": {
+    "text": "Since Silverborough is so out-of-the-way, the taxicab I'm riding won't be able to take me all the way there.",
+    "to": [
+      "ed10515c6e5221e6"
+    ],
+    "from": [
+      "d2e9f3f96900a7b8"
+    ]
+  },
+  "ed10515c6e5221e6": {
+    "text": "That means I'm going to have to go some of the way on foot.",
+    "to": [
+      "80b596e8a5123b3e"
+    ],
+    "from": [
+      "8a8efcc69db18cad"
+    ]
+  },
+  "1e0af1685f6ed85d": {
+    "text": "Thank you so much for your assistance.",
+    "to": [
+      "f96b3409a935a23b"
+    ],
+    "from": [
+      "80b596e8a5123b3e"
+    ]
+  },
+  "80b596e8a5123b3e": {
+    "text": "<em class=\"green\">This is where I let you go, Mr. Clay.</em>",
+    "to": [
+      "1e0af1685f6ed85d"
+    ],
+    "from": [
+      "ed10515c6e5221e6"
+    ]
+  },
+  "f96b3409a935a23b": {
+    "text": "<em class=\"green\">No worries! Don't forget to get your bag out of the rear.</em>",
+    "to": [
+      "01d1b943aec856b9"
+    ],
+    "from": [
+      "1e0af1685f6ed85d"
+    ]
+  },
+  "01d1b943aec856b9": {
+    "text": "Of course. Safe travels.",
+    "to": [
+      "768c6841b24d351c"
+    ],
+    "from": [
+      "f96b3409a935a23b"
+    ]
+  },
+  "5b54115e18682028": {
+    "text": "Well that wasn't as difficult as I thought it might be.${outputSpeed = 500;}",
+    "to": [
+      "64bcf5724a11f895"
+    ],
+    "from": [
+      "c19130a8498f4676"
+    ]
+  },
+  "64bcf5724a11f895": {
+    "text": ". . .${outputSpeed = 50;}",
+    "to": [
+      "7f10be519259859b"
+    ],
+    "from": [
+      "5b54115e18682028"
+    ]
+  },
+  "f7726ecce7496091": {
+    "text": "In essence, that means you'll be advising me on all of my decisions, as well as monitoring me and my interactions with others.",
+    "to": [
+      "1fa63a5c40fc7f2b"
+    ],
+    "from": [
+      "07bba5cceb98d966"
+    ]
+  },
+  "fd0c7cdef8064a78": {
+    "text": "I'll be communicating to you through this long-range audio transmission device, or \"earpiece,\" as the men back at the lab called it.",
+    "to": [
+      "07bba5cceb98d966"
+    ],
+    "from": [
+      "96174dd6f3105127"
+    ]
+  },
+  "96174dd6f3105127": {
+    "text": "According to my files, your name is ${return playerName}, right?",
+    "to": [
+      "fd0c7cdef8064a78"
+    ],
+    "from": [
+      "c5a56a0569c4f6a9"
+    ]
+  },
+  "7f10be519259859b": {
+    "text": "So this is Silverborough.",
+    "to": [
+      "e094e0a4a3d03d24"
+    ],
+    "from": [
+      "64bcf5724a11f895"
+    ]
+  },
+  "e094e0a4a3d03d24": {
+    "text": "There's really not much to it.",
+    "to": [
+      "4ed0cd688db8723e"
+    ],
+    "from": [
+      "7f10be519259859b"
+    ]
+  },
+  "7cd9d736210db8ee": {
+    "text": "# Puzzle #001",
+    "to": [],
+    "from": []
+  },
+  "bc1020fddcb5de0a": {
+    "text": "Who was that?",
+    "to": [
+      "049417da0a0db82a"
+    ],
+    "from": [
+      "768c6841b24d351c"
+    ]
+  },
+  "72cbbdeb973aba0a": {
+    "text": "What was that all about?",
+    "to": [
+      "049417da0a0db82a"
+    ],
+    "from": [
+      "768c6841b24d351c"
+    ]
+  },
+  "049417da0a0db82a": {
+    "text": "I was just speaking with the cab driver.",
+    "to": [
+      "1d18d2bd2ef561cf"
+    ],
+    "from": [
+      "bc1020fddcb5de0a",
+      "72cbbdeb973aba0a"
+    ]
+  },
+  "1d18d2bd2ef561cf": {
+    "text": "I'm surprised you were even able to hear our conversation.",
+    "to": [
+      "e6b69241558ca87b"
+    ],
+    "from": [
+      "049417da0a0db82a"
+    ]
+  },
+  "e6b69241558ca87b": {
+    "text": "I'm sure that'll come in handy later.",
+    "to": [
+      "e05a29d9b00bc9bd"
+    ],
+    "from": [
+      "1d18d2bd2ef561cf"
+    ]
+  },
+  "e05a29d9b00bc9bd": {
+    "text": "Anyway, I can see the town, but there's a problem.",
+    "to": [
+      "9666a2f6cf093631"
+    ],
+    "from": [
+      "e6b69241558ca87b"
+    ]
+  },
+  "9666a2f6cf093631": {
+    "text": "There's a pond between us. Luckily, there happens a rowboat on the close side.",
+    "to": [
+      "c19130a8498f4676"
+    ],
+    "from": [
+      "e05a29d9b00bc9bd"
+    ]
+  },
+  "4ed0cd688db8723e": {
+    "text": "It really is just a small, quaint town.",
+    "to": [
+      "289b4aaab00d45ac",
+      "32fa3dc8d680a792"
+    ],
+    "from": [
+      "e094e0a4a3d03d24"
+    ]
+  },
+  "289b4aaab00d45ac": {
+    "text": "What does it look like?",
+    "to": [
+      "e452b34a2135c2ec"
+    ],
+    "from": [
+      "4ed0cd688db8723e"
+    ]
+  },
+  "e452b34a2135c2ec": {
+    "text": "Well, like I said, there's really not that much to it.",
+    "to": [
+      "13e4e5172dd2d2d8"
+    ],
+    "from": [
+      "289b4aaab00d45ac"
+    ]
+  },
+  "13e4e5172dd2d2d8": {
+    "text": "There are some single-story houses, a town hall, a couple of restaurants...",
+    "to": [
+      "37df4e9c40c79b9a"
+    ],
+    "from": [
+      "e452b34a2135c2ec"
+    ]
+  },
+  "37df4e9c40c79b9a": {
+    "text": "And, of course, the police station.",
+    "to": [
+      "741b41ffd9cef5ba"
+    ],
+    "from": [
+      "13e4e5172dd2d2d8"
+    ]
+  },
+  "741b41ffd9cef5ba": {
+    "text": "Which is where I should be headed right now, as a matter of fact.",
+    "to": [
+      "7864127cf670814a"
+    ],
+    "from": [
+      "37df4e9c40c79b9a"
+    ]
+  },
+  "32fa3dc8d680a792": {
+    "text": "Are you going to go in?",
+    "to": [
+      "26af064119773c64"
+    ],
+    "from": [
+      "4ed0cd688db8723e"
+    ]
+  },
+  "7864127cf670814a": {
+    "text": "It looks to be about a five-minute walk, so...",
+    "to": [
+      "8c9d973ef5a85248"
+    ],
+    "from": [
+      "741b41ffd9cef5ba"
+    ]
+  },
+  "26af064119773c64": {
+    "text": "Well, of course I will.",
+    "to": [
+      "46587122d5823c53"
+    ],
+    "from": [
+      "32fa3dc8d680a792"
+    ]
+  },
+  "46587122d5823c53": {
+    "text": "I just need to find the police station....",
+    "to": [
+      "8099ab379c94aa16"
+    ],
+    "from": [
+      "26af064119773c64"
+    ]
+  },
+  "8099ab379c94aa16": {
+    "text": "Ah, there it is. It looks to be about a five-minute walk, so...",
+    "to": [
+      "8c9d973ef5a85248"
+    ],
+    "from": [
+      "46587122d5823c53"
+    ]
+  },
+  "8c9d973ef5a85248": {
+    "text": "I'll get back to you then.",
+    "to": [
+      "5773893d955acfe5"
+    ],
+    "from": [
+      "7864127cf670814a",
+      "8099ab379c94aa16"
+    ]
+  },
+  "5773893d955acfe5": {
+    "text": "Oh, and one more thing. You don't need to leave your application open while you're waiting.",
+    "to": [
+      "e8eb8982c4b25496"
+    ],
+    "from": [
+      "8c9d973ef5a85248"
+    ]
+  },
+  "b1f34adb73ce4ca9": {
+    "text": "<em class=\"red bold\">~ The detective is walking ~</em>${startTimer(300000)}",
+    "to": [
+      "888543d031fa9a0c"
+    ],
+    "from": [
+      "e8eb8982c4b25496"
+    ]
+  },
+  "888543d031fa9a0c": {
+    "text": "Well, that didn't take too long.",
+    "to": [
+      "3e3f38e6d398bb71",
+      "1f20cfc82996c9a6"
+    ],
+    "from": [
+      "b1f34adb73ce4ca9"
+    ]
+  },
+  "3e3f38e6d398bb71": {
+    "text": "What now?",
+    "to": [
+      "333bba3d41b801f1"
+    ],
+    "from": [
+      "888543d031fa9a0c"
+    ]
+  },
+  "1f20cfc82996c9a6": {
+    "text": "Did you see anything suspicious along the way?",
+    "to": [
+      "91c9d43fa650159b"
+    ],
+    "from": [
+      "888543d031fa9a0c"
+    ]
+  },
+  "a64353cc81c138f0": {
+    "text": "One thing that did stand out to me, however, was the lack of people.",
+    "to": [
+      "c7038f0b6aaa7f8f"
+    ],
+    "from": [
+      "91c9d43fa650159b"
+    ]
+  },
+  "91c9d43fa650159b": {
+    "text": "Well, not really.",
+    "to": [
+      "a64353cc81c138f0"
+    ],
+    "from": [
+      "1f20cfc82996c9a6"
+    ]
+  },
+  "07bba5cceb98d966": {
+    "text": "It looks like you'll be a sort of wingman for me on this case.",
+    "to": [
+      "f7726ecce7496091"
+    ],
+    "from": [
+      "fd0c7cdef8064a78"
+    ]
+  },
+  "333bba3d41b801f1": {
+    "text": "Well, I was hoping to meet with the chief of police, Mr. Kane, but I don't see him.",
+    "to": [
+      "a81ccc5d3fea13ae"
+    ],
+    "from": [
+      "3e3f38e6d398bb71"
+    ]
+  },
+  "20008c64de5d2f70": {
+    "text": "The lack of people.",
+    "to": [
+      "c7038f0b6aaa7f8f"
+    ],
+    "from": [
+      "a81ccc5d3fea13ae"
+    ]
+  },
+  "a81ccc5d3fea13ae": {
+    "text": "In fact, that reminds me. On the walk here, one thing about this otherwise featureless town stood out to me: ",
+    "to": [
+      "20008c64de5d2f70"
+    ],
+    "from": [
+      "333bba3d41b801f1"
+    ]
+  },
+  "c7038f0b6aaa7f8f": {
+    "text": "In fact, I don't think I saw a single person on that entire walk here.",
+    "to": [
+      "f17bb7fca5017d68"
+    ],
+    "from": [
+      "a64353cc81c138f0",
+      "20008c64de5d2f70"
+    ]
+  },
+  "f17bb7fca5017d68": {
+    "text": "I did see signs of life, like lights turning on inside of houses, lawn sprinklers starting up, and so on.",
+    "to": [
+      "a21c7a3f831485fa"
+    ],
+    "from": [
+      "c7038f0b6aaa7f8f"
+    ]
+  },
+  "a21c7a3f831485fa": {
+    "text": "But, oddly enough, no people.",
+    "to": [
+      "4bbdd4731509941a",
+      "057b03f785ad2eb8"
+    ],
+    "from": [
+      "f17bb7fca5017d68"
+    ]
+  },
+  "aaa7ad09355934a5": {
+    "text": "# Police Dept. Arrival",
+    "to": [],
+    "from": []
+  },
+  "057b03f785ad2eb8": {
+    "text": "Do you think this is related to the investigation?",
+    "to": [
+      "90063452289ca34a"
+    ],
+    "from": [
+      "a21c7a3f831485fa"
+    ]
+  },
+  "4bbdd4731509941a": {
+    "text": "What could it mean?",
+    "to": [
+      "90063452289ca34a"
+    ],
+    "from": [
+      "a21c7a3f831485fa"
+    ]
+  },
+  "e6bd7c895229d5c2": {
+    "text": "Somebody here <em>really</em>--${loopDelay = 2000}",
+    "to": [
+      "6350af81f3fdfdda"
+    ],
+    "from": [
+      "90063452289ca34a"
+    ]
+  },
+  "c812d142becfa69b": {
+    "text": "I would hardly call myself famous. That must mean that you're--${loopDelay = 2000}",
+    "to": [
+      "e4c53339f39e7ba3"
+    ],
+    "from": [
+      "6350af81f3fdfdda"
+    ]
+  },
+  "e4c53339f39e7ba3": {
+    "text": "<em class=\"green\">Douglas Kane, at your service.</em>",
+    "to": [
+      "e020665795f3f064"
+    ],
+    "from": [
+      "c812d142becfa69b"
+    ]
+  },
+  "e020665795f3f064": {
+    "text": "Pleased to meet you, Mr. Kane.",
+    "to": [
+      "a01df87b6da19c81"
+    ],
+    "from": [
+      "e4c53339f39e7ba3"
+    ]
+  },
+  "90063452289ca34a": {
+    "text": "Well, one thing is for sure.${loopDelay = 50}",
+    "to": [
+      "e6bd7c895229d5c2"
+    ],
+    "from": [
+      "4bbdd4731509941a",
+      "057b03f785ad2eb8"
+    ]
+  },
+  "e548dd59ba5b5027": {
+    "text": "# Suspects",
+    "to": [],
+    "from": []
+  },
+  "56c8a232ffb8768e": {
+    "text": "Well, in any case, there's no point in waiting around.",
+    "to": [
+      "00c840d442b6a0dc"
+    ],
+    "from": [
+      "a01df87b6da19c81"
+    ]
+  },
+  "00c840d442b6a0dc": {
+    "text": "<em class=\"green\">Of course. Come inside, and we can get started.</em>",
+    "to": [
+      "828a82575ca6d2c3"
+    ],
+    "from": [
+      "56c8a232ffb8768e"
+    ]
+  },
+  "828a82575ca6d2c3": {
+    "text": "<em class=\"grey\">I'm walking into the station, ${return playerName}.</em>",
+    "to": [
+      "1e55eefc2b489069"
+    ],
+    "from": [
+      "00c840d442b6a0dc"
+    ]
+  },
+  "e3a310f1104b4577": {
+    "text": "<em class=\"green\">Well, kind of.</em>",
+    "to": [
+      "277540ed61ff4413"
+    ],
+    "from": [
+      "a09a966ce2708d2e"
+    ]
+  },
+  "277540ed61ff4413": {
+    "text": "What do you mean?",
+    "to": [
+      "32605daef8bb6925"
+    ],
+    "from": [
+      "e3a310f1104b4577"
+    ]
+  },
+  "32605daef8bb6925": {
+    "text": "<em class=\"green\">You see, I'm finding that the information the suspects provided is a bit difficult to piece together myself.</em>",
+    "to": [
+      "4e12797f7b9c9d6f"
+    ],
+    "from": [
+      "277540ed61ff4413"
+    ]
+  },
+  "4e12797f7b9c9d6f": {
+    "text": "<em class=\"green\">Perhaps the great Detective Clay could give it a shot?</em>",
+    "to": [
+      "c172c6b5e7ed4ba2"
+    ],
+    "from": [
+      "32605daef8bb6925"
+    ]
+  },
+  "c172c6b5e7ed4ba2": {
+    "text": "Well, I suppose there's no harm in trying.${Puzzles[2].load()}",
+    "to": [
+      "14c64ee2fb26077f"
+    ],
+    "from": [
+      "4e12797f7b9c9d6f"
+    ]
+  },
+  "14c64ee2fb26077f": {
+    "text": "If I'm correct, it must be suspect D!",
+    "to": [
+      "81cc026f00ed0327"
+    ],
+    "from": [
+      "c172c6b5e7ed4ba2"
+    ]
+  },
+  "81cc026f00ed0327": {
+    "text": "It couldn't be suspect A, B, or C, since they would contradict each other, making more than one liar.",
+    "to": [
+      "41def27d5d1753a0"
+    ],
+    "from": [
+      "14c64ee2fb26077f"
+    ]
+  },
+  "41def27d5d1753a0": {
+    "text": "If it was E, that would also create a contradiction around suspect A.",
+    "to": [
+      "a76b91c28c563490"
+    ],
+    "from": [
+      "81cc026f00ed0327"
+    ]
+  },
+  "a76b91c28c563490": {
+    "text": "Which leaves us with suspect D as our liar.",
+    "to": [
+      "8cb5934b94517165"
+    ],
+    "from": [
+      "41def27d5d1753a0"
+    ]
+  },
+  "8cb5934b94517165": {
+    "text": "<em class=\"green\">Well, when you explain it like that, it sounds easy.</em>",
+    "to": [
+      "88f94395bb31eece"
+    ],
+    "from": [
+      "a76b91c28c563490"
+    ]
+  },
+  "88f94395bb31eece": {
+    "text": "<em class=\"green\">In any event, it seems you are correct.</em>",
+    "to": [
+      "625ddefbe560e667"
+    ],
+    "from": [
+      "8cb5934b94517165"
+    ]
+  },
+  "625ddefbe560e667": {
+    "text": "It was hardly anything more than basic logical deduction.",
+    "to": [
+      "ca1c1a1aabb14902"
+    ],
+    "from": [
+      "88f94395bb31eece"
+    ]
+  },
+  "ca1c1a1aabb14902": {
+    "text": "<em class=\"green\">It seems that this was an open-and-shut case. Thank you for your help, detective.</em>",
+    "to": [
+      "3d490ce62aabd012"
+    ],
+    "from": [
+      "625ddefbe560e667"
+    ]
+  },
+  "3d490ce62aabd012": {
+    "text": "<em class=\"green\">My men will take it from here. The criminal responsible for this will be in prison by nightfall.</em>",
+    "to": [
+      "f95bc436e6aa2632"
+    ],
+    "from": [
+      "ca1c1a1aabb14902"
+    ]
+  },
+  "f95bc436e6aa2632": {
+    "text": "Oh... is that all?",
+    "to": [
+      "df5e4f2a26417dcb"
+    ],
+    "from": [
+      "3d490ce62aabd012"
+    ]
+  },
+  "df5e4f2a26417dcb": {
+    "text": "<em class=\"green\">Well, of course! The mystery is solved, isn't it? The criminal has been identified.</em>",
+    "to": [
+      "6ecf626875e7f44b"
+    ],
+    "from": [
+      "f95bc436e6aa2632"
+    ]
+  },
+  "6ecf626875e7f44b": {
+    "text": "Perhaps, but...",
+    "to": [
+      "4135e6959d8bbb40"
+    ],
+    "from": [
+      "df5e4f2a26417dcb"
+    ]
+  },
+  "4135e6959d8bbb40": {
+    "text": "<em class=\"green\">But what, detective?</em>",
+    "to": [
+      "b74116cb4ed772e4"
+    ],
+    "from": [
+      "6ecf626875e7f44b"
+    ]
+  },
+  "b74116cb4ed772e4": {
+    "text": "Well, it just seems this case was rather hasty.",
+    "to": [
+      "2cd99a04fead56e3",
+      "905de1552f06d513"
+    ],
+    "from": [
+      "4135e6959d8bbb40"
+    ]
+  },
+  "eeb0bced86a38720": {
+    "text": "<em class=\"green\">Quite. After all, this town is very small.</em>",
+    "to": [
+      "c155e0cff421d664"
+    ],
+    "from": [
+      "86f2b6d41dd08042"
+    ]
+  },
+  "c155e0cff421d664": {
+    "text": "<em class=\"green\">It's very rare that something happens that requires my attention.</em>",
+    "to": [
+      "625e7e2e94727cce"
+    ],
+    "from": [
+      "eeb0bced86a38720"
+    ]
+  },
+  "625e7e2e94727cce": {
+    "text": "Hmm. Perhaps I could conduct an investigation of my own?",
+    "to": [
+      "6ec38120f574947f"
+    ],
+    "from": [
+      "c155e0cff421d664"
+    ]
+  },
+  "6ec38120f574947f": {
+    "text": "After all, you wouldn't turn down the great Detective Samuel Clay, would you?",
+    "to": [
+      "4c05eb81f9cf2aa2"
+    ],
+    "from": [
+      "625e7e2e94727cce"
+    ]
+  },
+  "4c05eb81f9cf2aa2": {
+    "text": "<em class=\"green\">Well...</em>",
+    "to": [
+      "930fce22dba19c52"
+    ],
+    "from": [
+      "6ec38120f574947f"
+    ]
+  },
+  "930fce22dba19c52": {
+    "text": "<em class=\"green\">I suppose we could look around a bit, if you'd like.</em>",
+    "to": [
+      "b34d0a6dfc2a89d0"
+    ],
+    "from": [
+      "4c05eb81f9cf2aa2"
+    ]
+  },
+  "b34d0a6dfc2a89d0": {
+    "text": "Thank you. I'd like to take a look at the late professor's home, if it isn't too much trouble.",
+    "to": [
+      "d032382cdba2b142"
+    ],
+    "from": [
+      "930fce22dba19c52"
+    ]
+  },
+  "d032382cdba2b142": {
+    "text": "<em class=\"green\">Of course. I'll show you to his house.</em>",
+    "to": [
+      "af62d0f5b9237b20"
+    ],
+    "from": [
+      "b34d0a6dfc2a89d0"
+    ]
+  },
+  "af62d0f5b9237b20": {
+    "text": "<em class=\"green\">It's somewhat secluded, up on that hill there. It'll be about a fifteen-minute walk.</em>",
+    "to": [
+      "023feb58bff1d7a5"
+    ],
+    "from": [
+      "d032382cdba2b142"
+    ]
+  },
+  "023feb58bff1d7a5": {
+    "text": "<em class=\"red bold\">~ The detective is walking ~</em>${startTimer(900000)}",
+    "to": [
+      "5d1131cbcfdb666d"
+    ],
+    "from": [
+      "af62d0f5b9237b20"
+    ]
+  },
+  "2cd99a04fead56e3": {
+    "text": "This seems fishy...",
+    "to": [
+      "067580c67b41f83b"
+    ],
+    "from": [
+      "b74116cb4ed772e4"
+    ]
+  },
+  "905de1552f06d513": {
+    "text": "Something isn't right about this.",
+    "to": [
+      "067580c67b41f83b"
+    ],
+    "from": [
+      "b74116cb4ed772e4"
+    ]
+  },
+  "067580c67b41f83b": {
+    "text": "<em class=\"grey\">I was thinking the same thing, ${return playerName}. I'll see if I can do some investigating of my own.</em>",
+    "to": [
+      "86f2b6d41dd08042"
+    ],
+    "from": [
+      "905de1552f06d513",
+      "2cd99a04fead56e3"
+    ]
+  },
+  "86f2b6d41dd08042": {
+    "text": "Are you sure there's nothing else you need help with?",
+    "to": [
+      "eeb0bced86a38720"
+    ],
+    "from": [
+      "067580c67b41f83b"
+    ]
+  },
+  "b91293c25e9b29ed": {
+    "text": "<em class=\"green\">Since we last spoke over the telephone, I've interviewed all five suspects.</em>",
+    "to": [
+      "4d443244fe796a30"
+    ],
+    "from": [
+      "2c45197929732ef0"
+    ]
+  },
+  "4d443244fe796a30": {
+    "text": "<em class=\"green\">They each provided equally believable alibis, which wasn't very helpful.</em>",
+    "to": [
+      "c137a7a706c0b7f8"
+    ],
+    "from": [
+      "b91293c25e9b29ed"
+    ]
+  },
+  "c137a7a706c0b7f8": {
+    "text": "<em class=\"green\">However, I gave them each a chance to give me information on the other suspects.</em>",
+    "to": [
+      "a09a966ce2708d2e"
+    ],
+    "from": [
+      "4d443244fe796a30"
+    ]
+  },
+  "a09a966ce2708d2e": {
+    "text": "I see. Did that yield any useful details?",
+    "to": [
+      "e3a310f1104b4577"
+    ],
+    "from": [
+      "c137a7a706c0b7f8"
+    ]
+  },
+  "e35b5c497a1cdc61": {
+    "text": "# Puzzle #002",
+    "to": [],
+    "from": []
+  },
+  "1e55eefc2b489069": {
+    "text": "<em class=\"grey\">Oh, and by the way, when I talk to you in the presence of others, I'll be whispering, so as not to blow your cover.</em>",
+    "to": [
+      "2c45197929732ef0"
+    ],
+    "from": [
+      "828a82575ca6d2c3"
+    ]
+  },
+  "2c45197929732ef0": {
+    "text": "<em class=\"grey\">Always good to have an advantage.</em>",
+    "to": [
+      "b91293c25e9b29ed"
+    ],
+    "from": [
+      "1e55eefc2b489069"
+    ]
+  },
+  "d157e110c8d3427f": {
+    "text": "<em class=\"grey\">I'm heading inside now...</em>",
+    "to": [
+      "af47317a86cbd2f0"
+    ],
+    "from": [
+      "aab5ecbdbad3370f"
+    ]
+  },
+  "af47317a86cbd2f0": {
+    "text": "<em class=\"bold\">What?!</em>",
+    "to": [
+      "ef8131a4b4f0ec91",
+      "8d18939d866964ad"
+    ],
+    "from": [
+      "d157e110c8d3427f"
+    ]
+  },
+  "ef8131a4b4f0ec91": {
+    "text": "What's wrong?",
+    "to": [
+      "fae1873c6672ae8c"
+    ],
+    "from": [
+      "af47317a86cbd2f0"
+    ]
+  },
+  "8d18939d866964ad": {
+    "text": "Are you okay?",
+    "to": [
+      "dba854783c473912"
+    ],
+    "from": [
+      "af47317a86cbd2f0"
+    ]
+  },
+  "dba854783c473912": {
+    "text": "<em class=\"grey\">Yes, I'm fine, but...</em>",
+    "to": [
+      "fae1873c6672ae8c"
+    ],
+    "from": [
+      "8d18939d866964ad"
+    ]
+  },
+  "fae1873c6672ae8c": {
+    "text": "This place! It looks like it's been ransacked!",
+    "to": [
+      "3265e4836d7d1f9b"
+    ],
+    "from": [
+      "ef8131a4b4f0ec91",
+      "dba854783c473912"
+    ]
+  },
+  "3265e4836d7d1f9b": {
+    "text": "<em class=\"green\">Yes, it does indeed. Once we interrogate the criminal, we should have an explanation.</em>",
+    "to": [
+      "885bd48a86212dfa"
+    ],
+    "from": [
+      "fae1873c6672ae8c"
+    ]
+  },
+  "5c6427b41eb6ba6f": {
+    "text": "<em class=\"green\">Did you say something?</em>",
+    "to": [
+      "425ab220a27cece8"
+    ],
+    "from": [
+      "885bd48a86212dfa"
+    ]
+  },
+  "885bd48a86212dfa": {
+    "text": "<em class=\"grey\">I wouldn't be too sure about that...</em>",
+    "to": [
+      "5c6427b41eb6ba6f"
+    ],
+    "from": [
+      "3265e4836d7d1f9b"
+    ]
+  },
+  "425ab220a27cece8": {
+    "text": "No sir, just talking to myself.",
+    "to": [
+      "3c69897aadeda981"
+    ],
+    "from": [
+      "5c6427b41eb6ba6f"
+    ]
+  },
+  "7a1d02ca69b22fae": {
+    "text": "# Professor's house",
+    "to": [],
+    "from": []
+  },
+  "3c69897aadeda981": {
+    "text": "<em class=\"green\">Ah, working something out, I'm sure.</em>",
+    "to": [
+      "698966da4333e561"
+    ],
+    "from": [
+      "425ab220a27cece8"
+    ]
+  },
+  "698966da4333e561": {
+    "text": "<em class=\"green\">Anyway, it appears that the professor was kidnapped, and he sure put up a fight.</em>",
+    "to": [
+      "24cf629a3614f276"
+    ],
+    "from": [
+      "3c69897aadeda981"
+    ]
+  },
+  "24cf629a3614f276": {
+    "text": "Kidnapped, you say?",
+    "to": [
+      "e6a74ecc660da0b6"
+    ],
+    "from": [
+      "698966da4333e561"
+    ]
+  },
+  "e6a74ecc660da0b6": {
+    "text": "<em class=\"green\">Well of course. What else could it have been? There's no body, so it couldn't have been a murder.</em>",
+    "to": [
+      "1b1e018960439cca"
+    ],
+    "from": [
+      "24cf629a3614f276"
+    ]
+  },
+  "1b1e018960439cca": {
+    "text": "I just wouldn't jump to a conclusion quite yet....",
+    "to": [
+      "a7bdc1c44c03dce1",
+      "8953ac95e749c010"
+    ],
+    "from": [
+      "e6a74ecc660da0b6"
+    ]
+  },
+  "8953ac95e749c010": {
+    "text": "You're onto something, aren't you?",
+    "to": [
+      "07a8e5a67eedd122"
+    ],
+    "from": [
+      "1b1e018960439cca"
+    ]
+  },
+  "a7bdc1c44c03dce1": {
+    "text": "What are you thinking?",
+    "to": [
+      "07a8e5a67eedd122"
+    ],
+    "from": [
+      "1b1e018960439cca"
+    ]
+  },
+  "07a8e5a67eedd122": {
+    "text": "<em class=\"grey\">Well, I don't want to rush to a conclusion on such little evidence, but I have a theory.</em>",
+    "to": [
+      "e166f1e457b18eda"
+    ],
+    "from": [
+      "8953ac95e749c010",
+      "a7bdc1c44c03dce1"
+    ]
+  },
+  "e166f1e457b18eda": {
+    "text": "<em class=\"grey\">And if it's correct, I am in a <em class=\"red bold\">world of danger</em>.</em>",
+    "to": [
+      "d2b7b60b2e4cdaee"
+    ],
+    "from": [
+      "07a8e5a67eedd122"
+    ]
+  },
+  "4631996221d8e9b6": {
+    "text": "Hmm...",
+    "to": [
+      "72168e237f63688a"
+    ],
+    "from": [
+      "d2b7b60b2e4cdaee"
+    ]
+  },
+  "72168e237f63688a": {
+    "text": "Mr. Kane, I've noticed these two parallel tracks in the carpet.",
+    "to": [
+      "cc022cc6fa4a2ad2"
+    ],
+    "from": [
+      "4631996221d8e9b6"
+    ]
+  },
+  "d2b7b60b2e4cdaee": {
+    "text": "<em class=\"grey\">I'll have to play my cards very carefully from now on.</em>",
+    "to": [
+      "4631996221d8e9b6"
+    ],
+    "from": [
+      "e166f1e457b18eda"
+    ]
+  },
+  "cc022cc6fa4a2ad2": {
+    "text": "<em class=\"green\">What about them?</em>",
+    "to": [
+      "70186a367fec0d92"
+    ],
+    "from": [
+      "72168e237f63688a"
+    ]
+  },
+  "029da7b7662da08e": {
+    "text": "They seem to be leading to the bedroom closet.",
+    "to": [
+      "799b4b681fabfb5b"
+    ],
+    "from": [
+      "70186a367fec0d92"
+    ]
+  },
+  "70186a367fec0d92": {
+    "text": "It looks as if something very heavy has been dragged along the floor.",
+    "to": [
+      "029da7b7662da08e"
+    ],
+    "from": [
+      "cc022cc6fa4a2ad2"
+    ]
+  },
+  "799b4b681fabfb5b": {
+    "text": "<em class=\"green\">Nonsense! They must be leading to that cabinet, right there at the end of them.</em>",
+    "to": [
+      "5bac734215e0b8b1"
+    ],
+    "from": [
+      "029da7b7662da08e"
+    ]
+  },
+  "5bac734215e0b8b1": {
+    "text": "<em class=\"grey\">I have limited time here, and I believe Mr. Kane's patience is waning.</em>",
+    "to": [
+      "0c309600809c56a7"
+    ],
+    "from": [
+      "799b4b681fabfb5b"
+    ]
+  },
+  "a1bd4df5b6f535b2": {
+    "text": "Leave the tracks and look elsewhere.",
+    "to": [
+      "4012b84924ec5942"
+    ],
+    "from": [
+      "0c309600809c56a7"
+    ]
+  },
+  "0c309600809c56a7": {
+    "text": "What do you think I should do?",
+    "to": [
+      "aedbdbc22995e7b2",
+      "a1bd4df5b6f535b2"
+    ],
+    "from": [
+      "5bac734215e0b8b1"
+    ]
+  },
+  "aedbdbc22995e7b2": {
+    "text": "Follow the tracks into the closet.",
+    "to": [
+      "687375ea884f1aea"
+    ],
+    "from": [
+      "0c309600809c56a7"
+    ]
+  },
+  "4012b84924ec5942": {
+    "text": "<em class=\"grey\">If you say so...</em>",
+    "to": [
+      "015aacc4de70d7ce"
+    ],
+    "from": [
+      "a1bd4df5b6f535b2"
+    ]
+  },
+  "015aacc4de70d7ce": {
+    "text": "<em class=\"grey\">But... I really just can't shake this feeling that the tracks are somehow significant.</em>",
+    "to": [
+      "51ba98084058e741"
+    ],
+    "from": [
+      "4012b84924ec5942"
+    ]
+  },
+  "51ba98084058e741": {
+    "text": "<em class=\"grey\">Call it superstition, intuition, whatever; I'm going to investigate the tracks.</em>",
+    "to": [
+      "f73a6294b0cf9b93"
+    ],
+    "from": [
+      "015aacc4de70d7ce"
+    ]
+  },
+  "687375ea884f1aea": {
+    "text": "<em class=\"grey\">Okay, I'm walking into the bedroom now.</em>",
+    "to": [
+      "714070691c53082a"
+    ],
+    "from": [
+      "aedbdbc22995e7b2"
+    ]
+  },
+  "f73a6294b0cf9b93": {
+    "text": "<em class=\"grey\">I'm walking into the bedroom now.</em>",
+    "to": [
+      "714070691c53082a"
+    ],
+    "from": [
+      "51ba98084058e741"
+    ]
+  },
+  "714070691c53082a": {
+    "text": "<em class=\"grey\">Opening the door to the closet....</em>",
+    "to": [
+      "3002291f66cc4e61"
+    ],
+    "from": [
+      "f73a6294b0cf9b93",
+      "687375ea884f1aea"
+    ]
+  },
+  "5d1131cbcfdb666d": {
+    "text": "<em class=\"grey\">We've arrived at the house.</em>",
+    "to": [
+      "78bf5a3971403a04"
+    ],
+    "from": [
+      "023feb58bff1d7a5"
+    ]
+  },
+  "78bf5a3971403a04": {
+    "text": "<em class=\"grey\">It's just another small, single-floor house.</em>",
+    "to": [
+      "ddec4b0ae8d0148c"
+    ],
+    "from": [
+      "5d1131cbcfdb666d"
+    ]
+  },
+  "ddec4b0ae8d0148c": {
+    "text": "<em class=\"grey\">From the outside, it looks like all of the rooms are in a row.</em>",
+    "to": [
+      "aab5ecbdbad3370f"
+    ],
+    "from": [
+      "78bf5a3971403a04"
+    ]
+  },
+  "aab5ecbdbad3370f": {
+    "text": "<em class=\"grey\">Very simple design.</em>",
+    "to": [
+      "d157e110c8d3427f"
+    ],
+    "from": [
+      "ddec4b0ae8d0148c"
+    ]
+  },
+  "3002291f66cc4e61": {
+    "text": "Nothing.",
+    "to": [
+      "97354183e4bec701"
+    ],
+    "from": [
+      "714070691c53082a"
+    ]
+  },
+  "97354183e4bec701": {
+    "text": "<em class=\"green\">See, it's just like I said: The cabinet was dragged along the floor.</em>",
+    "to": [
+      "d97ccf291e7bb0ed"
+    ],
+    "from": [
+      "3002291f66cc4e61"
+    ]
+  },
+  "d97ccf291e7bb0ed": {
+    "text": "Hmm, you did tell me that, didn't you....",
+    "to": [
+      "a367bdc0c90879a3"
+    ],
+    "from": [
+      "97354183e4bec701"
+    ]
+  },
+  "a367bdc0c90879a3": {
+    "text": "Wait! there's a piece of paper hidden behind this dresser!",
+    "to": [
+      "6469fc8b3d2967b1"
+    ],
+    "from": [
+      "d97ccf291e7bb0ed"
+    ]
+  },
+  "6469fc8b3d2967b1": {
+    "text": "<em class=\"green\">What?! Well, what do you know, there is.</em>",
+    "to": [
+      "901934fbcd247885"
+    ],
+    "from": [
+      "a367bdc0c90879a3"
+    ]
+  },
+  "901934fbcd247885": {
+    "text": "<em class=\"green\">What does it say?</em>",
+    "to": [
+      "434bd075a689af97"
+    ],
+    "from": [
+      "6469fc8b3d2967b1"
+    ]
+  },
+  "8aba14082cf37627": {
+    "text": "# Secret note",
+    "to": [],
+    "from": []
+  },
+  "343bce8a7d280996": {
+    "text": "According to this, there's a small lab hidden somewhere within the house.",
+    "to": [
+      "6472c103a6a08c34"
+    ],
+    "from": [
+      "d3f0bbb014af5922"
+    ]
+  },
+  "6472c103a6a08c34": {
+    "text": "Written here are clues as to the entrance to said lab.",
+    "to": [
+      "48fea98075962037"
+    ],
+    "from": [
+      "343bce8a7d280996"
+    ]
+  },
+  "48fea98075962037": {
+    "text": "<em class=\"green\">Well, why don't you give it a crack?</em>${Puzzles[3].load()}",
+    "to": [
+      "e6aea47d78d652f4"
+    ],
+    "from": [
+      "6472c103a6a08c34"
+    ]
+  },
+  "6e86133a4a444f28": {
+    "text": "# Puzzle 003",
+    "to": [],
+    "from": []
+  },
+  "e6aea47d78d652f4": {
+    "text": "It seems that the entrance to the secret lab would be inside the bedroom!",
+    "to": [
+      "a264ac674d03a78b"
+    ],
+    "from": [
+      "48fea98075962037"
+    ]
+  },
+  "a264ac674d03a78b": {
+    "text": "Why don't we look around for a few minutes to see if we can find the entrance.",
+    "to": [
+      "de8bb923c4ac051e"
+    ],
+    "from": [
+      "e6aea47d78d652f4"
+    ]
+  },
+  "de8bb923c4ac051e": {
+    "text": "<em class=\"green\">I've got work to attend to! I can't just stand around here all day.</em>",
+    "to": [
+      "35f075215d4b9359"
+    ],
+    "from": [
+      "a264ac674d03a78b"
+    ]
+  },
+  "35f075215d4b9359": {
+    "text": "You have work, do you? If you want to leave, you're more than welcome to.",
+    "to": [
+      "f9d5e819b8986ee4"
+    ],
+    "from": [
+      "de8bb923c4ac051e"
+    ]
+  },
+  "f9d5e819b8986ee4": {
+    "text": "<em class=\"green\">Erm, well....</em>",
+    "to": [
+      "167e861f04ab19fa"
+    ],
+    "from": [
+      "35f075215d4b9359"
+    ]
+  },
+  "5018b03446dcd9d8": {
+    "text": "I think I found something!",
+    "to": [
+      "61ee686c6b0bba46"
+    ],
+    "from": [
+      "72d6afd826ead243"
+    ]
+  },
+  "61ee686c6b0bba46": {
+    "text": "It's just behind this bookcase. Could you help me move it?${loopDelay = 10000}",
+    "to": [
+      "cafb6e145b428636"
+    ],
+    "from": [
+      "5018b03446dcd9d8"
+    ]
+  },
+  "cafb6e145b428636": {
+    "text": "<em class=\"green\">Certainly.</em>",
+    "to": [
+      "218142c82b10bc54"
+    ],
+    "from": [
+      "61ee686c6b0bba46"
+    ]
+  },
+  "218142c82b10bc54": {
+    "text": "Wow! Would you look at that!",
+    "to": [
+      "5caf31860aad48fd"
+    ],
+    "from": [
+      "cafb6e145b428636"
+    ]
+  },
+  "5caf31860aad48fd": {
+    "text": "<em class=\"green\">I'll be darned. I guess you were right.</em>",
+    "to": [
+      "f23195ee26538677"
+    ],
+    "from": [
+      "218142c82b10bc54"
+    ]
+  },
+  "f23195ee26538677": {
+    "text": "<em class=\"grey\">There's a massive steel door embedded in the wall, but there seems to be a combination lock on it.</em>",
+    "to": [
+      "4a85dba9dc6ab51a"
+    ],
+    "from": [
+      "5caf31860aad48fd"
+    ]
+  },
+  "4a85dba9dc6ab51a": {
+    "text": "<em class=\"green\">Well great. Now how are we supposed to get in?</em>",
+    "to": [
+      "a074e1bfea18b3ec"
+    ],
+    "from": [
+      "f23195ee26538677"
+    ]
+  },
+  "a074e1bfea18b3ec": {
+    "text": "Hmm.... Hold on, let me see that note from the closet.",
+    "to": [
+      "a1dcf425d2ffa843"
+    ],
+    "from": [
+      "4a85dba9dc6ab51a"
+    ]
+  },
+  "a1dcf425d2ffa843": {
+    "text": ". . .",
+    "to": [
+      "f9ebd201cb2164e2"
+    ],
+    "from": [
+      "a074e1bfea18b3ec"
+    ]
+  },
+  "f9ebd201cb2164e2": {
+    "text": "Once again, there are clues. But this time, they will reveal the door's passcode.",
+    "to": [
+      "f37929edb5537584"
+    ],
+    "from": [
+      "a1dcf425d2ffa843"
+    ]
+  },
+  "434bd075a689af97": {
+    "text": "It looks to be a sort of note from the professor. It reads:",
+    "to": [
+      "4dcf8524c7b95ca7"
+    ],
+    "from": [
+      "901934fbcd247885"
+    ]
+  },
+  "4dcf8524c7b95ca7": {
+    "text": "<em class=\"cyan\">If you're reading this, that means I am probably dead.</em>",
+    "to": [
+      "c887723cca834d4d"
+    ],
+    "from": [
+      "434bd075a689af97"
+    ]
+  },
+  "c887723cca834d4d": {
+    "text": "<em class=\"cyan\">I'm sure you have yet to find my body, and while I can't reveal too many details, I can tell you this:</em>${outputSpeed = 80}",
+    "to": [
+      "d06e5e2b104b7eea"
+    ],
+    "from": [
+      "4dcf8524c7b95ca7"
+    ]
+  },
+  "d06e5e2b104b7eea": {
+    "text": "<em class=\"red bold\">As soon as you find my body, your mystery is as good as solved.</em>${outputSpeed = 50}",
+    "to": [
+      "d3f0bbb014af5922"
+    ],
+    "from": [
+      "c887723cca834d4d"
+    ]
+  },
+  "d3f0bbb014af5922": {
+    "text": "Hm. Very interesting. It looks like there's some other information here too.",
+    "to": [
+      "343bce8a7d280996"
+    ],
+    "from": [
+      "d06e5e2b104b7eea"
+    ]
+  },
+  "f37929edb5537584": {
+    "text": "I have a feeling that whatever stands behind this door, it will be the key to solving this mystery.${Puzzles[4].load()}",
+    "to": [
+      "473aa1923b5c9594"
+    ],
+    "from": [
+      "f9ebd201cb2164e2"
+    ]
+  },
+  "473aa1923b5c9594": {
+    "text": "Well then, let's give it a try.${outputSpeed=750}",
+    "to": [
+      "ef756823e7cdabdd"
+    ],
+    "from": [
+      "f37929edb5537584"
+    ]
+  },
+  "ef756823e7cdabdd": {
+    "text": "2 5 4 1${outputSpeed=50}",
+    "to": [
+      "94c977ca2ce6aa57"
+    ],
+    "from": [
+      "473aa1923b5c9594"
+    ]
+  },
+  "a1604338dca825b3": {
+    "text": "# Puzzle 004",
+    "to": [],
+    "from": []
+  },
+  "94c977ca2ce6aa57": {
+    "text": "<em class=\"green bold\">[Access Granted]</em>",
+    "to": [
+      "5469b1f62e463925"
+    ],
+    "from": [
+      "ef756823e7cdabdd"
+    ]
+  },
+  "5469b1f62e463925": {
+    "text": "<em class=\"grey\">The door is opening now, ${return playerName}.</em>",
+    "to": [
+      "a47d0d3920adade9"
+    ],
+    "from": [
+      "94c977ca2ce6aa57"
+    ]
+  },
+  "a47d0d3920adade9": {
+    "text": "<em class=\"green\">What?! It's just some tiny old room.</em>",
+    "to": [
+      "a7410ac3a84a981a"
+    ],
+    "from": [
+      "5469b1f62e463925"
+    ]
+  },
+  "a7410ac3a84a981a": {
+    "text": "Hold on a moment. There's a lever on the wall here.",
+    "to": [
+      "229312ba6e2ffe8c"
+    ],
+    "from": [
+      "a47d0d3920adade9"
+    ]
+  },
+  "229312ba6e2ffe8c": {
+    "text": "<em class=\"green\">Well, what are you waiting for? Pull it!</em>",
+    "to": [
+      "18acb5ccab09d5e6"
+    ],
+    "from": [
+      "a7410ac3a84a981a"
+    ]
+  },
+  "18acb5ccab09d5e6": {
+    "text": "Alright, here goes nothing.${outputSpeed = 750; loopDelay = 5000}",
+    "to": [
+      "b31866794567dbb5"
+    ],
+    "from": [
+      "229312ba6e2ffe8c"
+    ]
+  },
+  "b31866794567dbb5": {
+    "text": ". . .${outputSpeed = 50; loopDelay = 0}",
+    "to": [
+      "665ba79386485184"
+    ],
+    "from": [
+      "18acb5ccab09d5e6"
+    ]
+  },
+  "ab26c47ea7a50af5": {
+    "text": "<em class=\"green\">Agh!</em>",
+    "to": [
+      "6fbebe523f0cb654"
+    ],
+    "from": [
+      "665ba79386485184"
+    ]
+  },
+  "6fbebe523f0cb654": {
+    "text": "What on earth?! It appears this is some sort of vertical transport device.",
+    "to": [
+      "39f296760a3934a7"
+    ],
+    "from": [
+      "ab26c47ea7a50af5"
+    ]
+  },
+  "665ba79386485184": {
+    "text": "Well, I guess it didn't--${loopDelay = 2000; elems.lift.play()}",
+    "to": [
+      "ab26c47ea7a50af5"
+    ],
+    "from": [
+      "b31866794567dbb5"
+    ]
+  },
+  "39f296760a3934a7": {
+    "text": "I'll bet it's taking us down underground to the lab.",
+    "to": [
+      "4f675bb8cab007da"
+    ],
+    "from": [
+      "6fbebe523f0cb654"
+    ]
+  },
+  "4f675bb8cab007da": {
+    "text": "<em class=\"green\">Never gets old....</em>",
+    "to": [
+      "11f98dc7f377c566"
+    ],
+    "from": [
+      "39f296760a3934a7"
+    ]
+  },
+  "11f98dc7f377c566": {
+    "text": "Did you say something, Mr. Kane?",
+    "to": [
+      "9480f6b4897e7463"
+    ],
+    "from": [
+      "4f675bb8cab007da"
+    ]
+  },
+  "9480f6b4897e7463": {
+    "text": "<em class=\"green\">Oh, I was just... er... saying that finally getting your first solid lead, it always brings a rush of excitement.</em>",
+    "to": [
+      "2f8edfb7bcc4ae6c"
+    ],
+    "from": [
+      "11f98dc7f377c566"
+    ]
+  },
+  "2f8edfb7bcc4ae6c": {
+    "text": "Mhm.",
+    "to": [
+      "fc9806077b443fff",
+      "e786fec8fa86c85c"
+    ],
+    "from": [
+      "9480f6b4897e7463"
+    ]
+  },
+  "fc9806077b443fff": {
+    "text": "There's something odd about him.",
+    "to": [
+      "142789b3f286584e"
+    ],
+    "from": [
+      "2f8edfb7bcc4ae6c"
+    ]
+  },
+  "e786fec8fa86c85c": {
+    "text": "Keep an eye on him, detective.",
+    "to": [
+      "a928bf4bafde62c6"
+    ],
+    "from": [
+      "2f8edfb7bcc4ae6c"
+    ]
+  },
+  "142789b3f286584e": {
+    "text": "<em class=\"grey\">You're not alone in this thought, ${return playerName}.</em>",
+    "to": [
+      "0b3fcc1985c65e7e"
+    ],
+    "from": [
+      "fc9806077b443fff"
+    ]
+  },
+  "a928bf4bafde62c6": {
+    "text": "<em class=\"grey\">Yes, there's something strange going on with him, ${return playerName}.</em>",
+    "to": [
+      "0b3fcc1985c65e7e"
+    ],
+    "from": [
+      "e786fec8fa86c85c"
+    ]
+  },
+  "0b3fcc1985c65e7e": {
+    "text": "<em class=\"grey\">It's just like the old saying: Keep your friends close, but your enemies closer.</em>",
+    "to": [
+      "82b78cb528695d55",
+      "bbc30762b4052d17"
+    ],
+    "from": [
+      "a928bf4bafde62c6",
+      "142789b3f286584e"
+    ]
+  },
+  "82b78cb528695d55": {
+    "text": "Yes, be careful, detective.",
+    "to": [
+      "fcb0593252955df1"
+    ],
+    "from": [
+      "0b3fcc1985c65e7e"
+    ]
+  },
+  "bbc30762b4052d17": {
+    "text": "Do you really consider him an enemy?",
+    "to": [
+      "fe1083441dfa00f0"
+    ],
+    "from": [
+      "0b3fcc1985c65e7e"
+    ]
+  },
+  "fe1083441dfa00f0": {
+    "text": "<em class=\"grey\">Well, I wouldn't go so far as to say an enemy, but I hardly know the man.",
+    "to": [
+      "90277eee7b7d950c"
+    ],
+    "from": [
+      "bbc30762b4052d17"
+    ]
+  },
+  "90277eee7b7d950c": {
+    "text": "<em class=\"grey\">In these types of situations, it's good to be cautious. Especially now, in light of the warning from the professor's note.</em>",
+    "to": [
+      "72b13f075bffdfc4"
+    ],
+    "from": [
+      "fe1083441dfa00f0"
+    ]
+  },
+  "fcb0593252955df1": {
+    "text": "<em class=\"grey\">Thank you, I will be. Anyway, I should probably get back to the investigation.</em>",
+    "to": [
+      "72b13f075bffdfc4"
+    ],
+    "from": [
+      "82b78cb528695d55"
+    ]
+  },
+  "72b13f075bffdfc4": {
+    "text": "<em class=\"green\">What? Did you say something, Clay? You must speak up.</em>",
+    "to": [
+      "8d833aa7d9befb9a"
+    ],
+    "from": [
+      "90277eee7b7d950c",
+      "fcb0593252955df1"
+    ]
+  },
+  "8d833aa7d9befb9a": {
+    "text": "Apologies, Mr. Kane. I was just saying that we should get on with the investigation.",
+    "to": [
+      "6782e9ade4435580"
+    ],
+    "from": [
+      "72b13f075bffdfc4"
+    ]
+  },
+  "6782e9ade4435580": {
+    "text": "<em class=\"green\">Indeed we should. Do me a favor and open the door behind you. It probably leads into the lab.</em>",
+    "to": [
+      "3f71116596ae98e1"
+    ],
+    "from": [
+      "8d833aa7d9befb9a"
+    ]
+  },
+  "53cb04f55491e13f": {
+    "text": "Why, this has to be at least five times the size of the town itself!",
+    "to": [
+      "8d3efca5448bc23e"
+    ],
+    "from": [
+      "3f71116596ae98e1"
+    ]
+  },
+  "8d3efca5448bc23e": {
+    "text": "<em class=\"green\">That's incredible!</em>",
+    "to": [
+      "7d540ddd855bb67c"
+    ],
+    "from": [
+      "53cb04f55491e13f"
+    ]
+  },
+  "7d540ddd855bb67c": {
+    "text": "<em class=\"green\">It looks like we have our work cut out for us. Let's have a look around, and let me know if you find anything of interest.</em>",
+    "to": [
+      "69d07d63b48a5843"
+    ],
+    "from": [
+      "8d3efca5448bc23e"
+    ]
+  },
+  "d54f9bfa1fe53b01": {
+    "text": "<em class=\"red bold\">~ The detective is searching ~</em>${startTimer(1500000)}",
+    "to": [
+      "10c6484fafc1a119"
+    ],
+    "from": [
+      "69d07d63b48a5843"
+    ]
+  },
+  "356d999d02436a15": {
+    "text": "# Formulas discovered",
+    "to": [],
+    "from": []
+  },
+  "10c6484fafc1a119": {
+    "text": "<em class=\"green\">Detective, come have a look at this.</em>",
+    "to": [
+      "0aeb8348a2014b2f"
+    ],
+    "from": [
+      "d54f9bfa1fe53b01"
+    ]
+  },
+  "0aeb8348a2014b2f": {
+    "text": "What is it, Mr. Kane?",
+    "to": [
+      "9e0104518a5905ac"
+    ],
+    "from": [
+      "10c6484fafc1a119"
+    ]
+  },
+  "9e0104518a5905ac": {
+    "text": "<em class=\"green\">It looks to be a chemical recipe of some kind.</em>",
+    "to": [
+      "287c0fe707cada0e"
+    ],
+    "from": [
+      "0aeb8348a2014b2f"
+    ]
+  },
+  "287c0fe707cada0e": {
+    "text": "But it doesn't look anything like a formula.",
+    "to": [
+      "578eb788b376d542"
+    ],
+    "from": [
+      "9e0104518a5905ac"
+    ]
+  },
+  "578eb788b376d542": {
+    "text": "<em class=\"green\">No, it seems to be encoded.</em>",
+    "to": [
+      "defe73db739b05cc"
+    ],
+    "from": [
+      "287c0fe707cada0e"
+    ]
+  },
+  "defe73db739b05cc": {
+    "text": "Do you know what it creates?",
+    "to": [
+      "4a6b92502ece9ad2"
+    ],
+    "from": [
+      "578eb788b376d542"
+    ]
+  },
+  "4a6b92502ece9ad2": {
+    "text": "<em class=\"green\">I'm no chemist, but it looks like it makes a solution and a byproduct, but I've never seen either of them in my life.</em>",
+    "to": [
+      "43f155d9b7f645a4"
+    ],
+    "from": [
+      "defe73db739b05cc"
+    ]
+  },
+  "43f155d9b7f645a4": {
+    "text": "<em class=\"green\">I'm sure these both have very interesting properties, if the professor was working on them for such a long time.</em>",
+    "to": [
+      "8ee841be8b84e266"
+    ],
+    "from": [
+      "4a6b92502ece9ad2"
+    ]
+  },
+  "8ee841be8b84e266": {
+    "text": "Do you think it would be worth checking them out?",
+    "to": [
+      "7a2f47320e6f4c83"
+    ],
+    "from": [
+      "43f155d9b7f645a4"
+    ]
+  },
+  "7a2f47320e6f4c83": {
+    "text": "<em class=\"green\">I think so. It will probably provide insight into the professor's work, which could help us with our case.</em>",
+    "to": [
+      "e7271ff7e68391f6"
+    ],
+    "from": [
+      "8ee841be8b84e266"
+    ]
+  },
+  "e7271ff7e68391f6": {
+    "text": "Alright then, I'll see if I can figure it out.${Puzzles[5].load()}",
+    "to": [
+      "12d6b545136efc8a"
+    ],
+    "from": [
+      "7a2f47320e6f4c83"
+    ]
+  },
+  "12d6b545136efc8a": {
+    "text": "It appears that that particular combination was successful.",
+    "to": [
+      "d1e21449569b95d5"
+    ],
+    "from": [
+      "e7271ff7e68391f6"
+    ]
+  },
+  "d1e21449569b95d5": {
+    "text": "<em class=\"green\">I wonder what it does. Maybe pour it on that flower there?</em>",
+    "to": [
+      "7c65355aa224a9cd"
+    ],
+    "from": [
+      "12d6b545136efc8a"
+    ]
+  },
+  "7c65355aa224a9cd": {
+    "text": "Sure, let's give it a try.",
+    "to": [
+      "72781a623c70c31f"
+    ],
+    "from": [
+      "d1e21449569b95d5"
+    ]
+  },
+  "72781a623c70c31f": {
+    "text": "...Woah!",
+    "to": [
+      "ec5d0f658d72f9e0"
+    ],
+    "from": [
+      "7c65355aa224a9cd"
+    ]
+  },
+  "ec5d0f658d72f9e0": {
+    "text": "<em class=\"green\">I've-- never seen anything like it!</em>",
+    "to": [
+      "c5fa31f3e8a8ed3e",
+      "041d337eec98ddd2"
+    ],
+    "from": [
+      "72781a623c70c31f"
+    ]
+  },
+  "8c46d7181197d9de": {
+    "text": "# Formulas used",
+    "to": [],
+    "from": []
+  },
+  "041d337eec98ddd2": {
+    "text": "Are you alright?",
+    "to": [
+      "bd523dc2244196d1"
+    ],
+    "from": [
+      "ec5d0f658d72f9e0"
+    ]
+  },
+  "c5fa31f3e8a8ed3e": {
+    "text": "What happened?",
+    "to": [
+      "5705faff4050a69f"
+    ],
+    "from": [
+      "ec5d0f658d72f9e0"
+    ]
+  },
+  "bd523dc2244196d1": {
+    "text": "<em class=\"grey\">Yes, I'm quite alright, aside from feeling a bit faint.</em>",
+    "to": [
+      "9dfb814b0bbad1de",
+      "9001e3f7d6516130"
+    ],
+    "from": [
+      "041d337eec98ddd2"
+    ]
+  },
+  "9dfb814b0bbad1de": {
+    "text": "Why?",
+    "to": [
+      "5705faff4050a69f"
+    ],
+    "from": [
+      "bd523dc2244196d1"
+    ]
+  },
+  "9001e3f7d6516130": {
+    "text": "What happened?",
+    "to": [
+      "5705faff4050a69f"
+    ],
+    "from": [
+      "bd523dc2244196d1"
+    ]
+  },
+  "5705faff4050a69f": {
+    "text": "<em class=\"grey\">I just poured a few drops of this solution on a rose, and it simply vanished.</em>",
+    "to": [
+      "7765c40597177a02"
+    ],
+    "from": [
+      "c5fa31f3e8a8ed3e",
+      "9dfb814b0bbad1de",
+      "9001e3f7d6516130"
+    ]
+  },
+  "ff1fa657623b68a6": {
+    "text": "Clever, Mr. Kane. It worked!",
+    "to": [
+      "48f91144c7c7b695"
+    ],
+    "from": [
+      "c1329995b44280d6"
+    ]
+  },
+  "48f91144c7c7b695": {
+    "text": "<em class=\"green\">It seems this little expedition of ours yielded some extremely valuable evidence.</em>",
+    "to": [
+      "a149a3f0ce24dfa5"
+    ],
+    "from": [
+      "ff1fa657623b68a6"
+    ]
+  },
+  "a149a3f0ce24dfa5": {
+    "text": "<em class=\"green\">I'll just take these back to the station to get them analyzed by an expert.</em>",
+    "to": [
+      "ca8a6ba7686c4982"
+    ],
+    "from": [
+      "48f91144c7c7b695"
+    ]
+  },
+  "ca8a6ba7686c4982": {
+    "text": "Not so fast, Mr. Kane. I have a theory.",
+    "to": [
+      "d0500f6bc61886f7"
+    ],
+    "from": [
+      "a149a3f0ce24dfa5"
+    ]
+  },
+  "d0500f6bc61886f7": {
+    "text": "<em class=\"green\">You do?</em>",
+    "to": [
+      "28de89e082300486"
+    ],
+    "from": [
+      "ca8a6ba7686c4982"
+    ]
+  },
+  "28de89e082300486": {
+    "text": "Yes. If you'll just come head back into the house-- using the <em>stairs</em> this time-- I'd like to try something.",
+    "to": [
+      "d54c764a307e1982"
+    ],
+    "from": [
+      "d0500f6bc61886f7"
+    ]
+  },
+  "d54c764a307e1982": {
+    "text": "<em class=\"red bold\">~ The detective is walking ~</em>${startTimer(90000)}",
+    "to": [
+      "31b5d1dc4edef99a"
+    ],
+    "from": [
+      "28de89e082300486"
+    ]
+  },
+  "31b5d1dc4edef99a": {
+    "text": "Here we are, at the professor's bedroom closet.",
+    "to": [
+      "45c05efd5f7a1ee5"
+    ],
+    "from": [
+      "d54c764a307e1982"
+    ]
+  },
+  "45c05efd5f7a1ee5": {
+    "text": "If you would be so kind as to hand me the serum and the antidote?",
+    "to": [
+      "ff24699eb7cc9d21"
+    ],
+    "from": [
+      "31b5d1dc4edef99a"
+    ]
+  },
+  "ff24699eb7cc9d21": {
+    "text": "<em class=\"green\">Of course, detective.</em>",
+    "to": [
+      "023baf5619af35a0"
+    ],
+    "from": [
+      "45c05efd5f7a1ee5"
+    ]
+  },
+  "023baf5619af35a0": {
+    "text": "Thank you. If I just sprinkle some over the floor here... aha!",
+    "to": [
+      "a2467eb8e1efdeec"
+    ],
+    "from": [
+      "ff24699eb7cc9d21"
+    ]
+  },
+  "a2467eb8e1efdeec": {
+    "text": "<em class=\"green bold\">What?! How?! I dont--</em>",
+    "to": [
+      "0fc2c8f08ece9c64",
+      "11b545795b404320"
+    ],
+    "from": [
+      "023baf5619af35a0"
+    ]
+  },
+  "b87b8e86bcc82eb2": {
+    "text": "I think this clears everything up, as a matter of fact.",
+    "to": [
+      "245bad80b69d9824"
+    ],
+    "from": [
+      "429202b5e0d62038",
+      "8a9538ac072f5cec"
+    ]
+  },
+  "bb6e426a61b80e63": {
+    "text": "The murderer...",
+    "to": [
+      "d57d23177b705992"
+    ],
+    "from": [
+      "15b7ac7ecc08e762"
+    ]
+  },
+  "d57d23177b705992": {
+    "text": "Of Professor Victor Sterling...",
+    "to": [
+      "f085b7aafd5e1726"
+    ],
+    "from": [
+      "bb6e426a61b80e63"
+    ]
+  },
+  "f085b7aafd5e1726": {
+    "text": "Happens to be in this very room....",
+    "to": [
+      "3a609d296ca302e4"
+    ],
+    "from": [
+      "d57d23177b705992"
+    ]
+  },
+  "2715b848ba1c23d9": {
+    "text": "The man who murdered the professor is none other than <em class=\"red bold\">the professor himself!</em>",
+    "to": [
+      "8392a9fd07dfce4e"
+    ],
+    "from": [
+      "8f0c93c9d072767f",
+      "3c26bfca78c82476"
+    ]
+  },
+  "3a609d296ca302e4": {
+    "text": "<em class=\"green\">You don't mean to suggest...</em>",
+    "to": [
+      "156e8ec9b8f6ba03",
+      "3a7ac94ad9403c22"
+    ],
+    "from": [
+      "f085b7aafd5e1726"
+    ]
+  },
+  "3a7ac94ad9403c22": {
+    "text": "I see where you're going with this, detective.",
+    "to": [
+      "8f0c93c9d072767f"
+    ],
+    "from": [
+      "3a609d296ca302e4"
+    ]
+  },
+  "8f0c93c9d072767f": {
+    "text": "<em class=\"grey\">You might be surprised, actually.</em>",
+    "to": [
+      "2715b848ba1c23d9"
+    ],
+    "from": [
+      "3a7ac94ad9403c22"
+    ]
+  },
+  "156e8ec9b8f6ba03": {
+    "text": "I don't understand.",
+    "to": [
+      "3c26bfca78c82476"
+    ],
+    "from": [
+      "3a609d296ca302e4"
+    ]
+  },
+  "3c26bfca78c82476": {
+    "text": "<em class=\"grey\">You will, in due time. Be patient.</em>",
+    "to": [
+      "2715b848ba1c23d9"
+    ],
+    "from": [
+      "156e8ec9b8f6ba03"
+    ]
+  },
+  "d036b9062edfa106": {
+    "text": "# Fakeout",
+    "to": [],
+    "from": []
+  },
+  "0fc2c8f08ece9c64": {
+    "text": "What happened?",
+    "to": [
+      "193d5dad79f20f18"
+    ],
+    "from": [
+      "a2467eb8e1efdeec"
+    ]
+  },
+  "11b545795b404320": {
+    "text": "Is it--?",
+    "to": [
+      "ff6ca3d31e29c8ad"
+    ],
+    "from": [
+      "a2467eb8e1efdeec"
+    ]
+  },
+  "193d5dad79f20f18": {
+    "text": "<em class=\"grey\">Well, I sprinkled the antidote across the floor of the professor's closet. The one with the marks in the carpet leading to it.</em>",
+    "to": [
+      "8a9538ac072f5cec"
+    ],
+    "from": [
+      "0fc2c8f08ece9c64"
+    ]
+  },
+  "ff6ca3d31e29c8ad": {
+    "text": "<em class=\"grey\">Indeed it is, ${return playerName}.</em>",
+    "to": [
+      "429202b5e0d62038"
+    ],
+    "from": [
+      "11b545795b404320"
+    ]
+  },
+  "8a9538ac072f5cec": {
+    "text": "<em class=\"grey\">And nothing other than the body of the professor himself appeared!</em>",
+    "to": [
+      "b87b8e86bcc82eb2"
+    ],
+    "from": [
+      "193d5dad79f20f18"
+    ]
+  },
+  "7765c40597177a02": {
+    "text": "<em class=\"green\">Is... is it still there?</em>",
+    "to": [
+      "e8959408e8944b2f"
+    ],
+    "from": [
+      "5705faff4050a69f"
+    ]
+  },
+  "e8959408e8944b2f": {
+    "text": "Yes, I can feel it. In fact, it feels absolutely normal, aside from being a bit warm to the touch.",
+    "to": [
+      "04cc68401626ee59"
+    ],
+    "from": [
+      "7765c40597177a02"
+    ]
+  },
+  "43ca99a2a769e46b": {
+    "text": "Yes, go ahead. Take both of them.",
+    "to": [
+      "c1329995b44280d6"
+    ],
+    "from": [
+      "04cc68401626ee59"
+    ]
+  },
+  "c1329995b44280d6": {
+    "text": "<em class=\"green\">Maybe, since the solution made it vanish, and the byproduct used the opposite ingredients, this will serve as a sort of antidote.</em>",
+    "to": [
+      "ff1fa657623b68a6"
+    ],
+    "from": [
+      "43ca99a2a769e46b"
+    ]
+  },
+  "585e757c1a7f1d7e": {
+    "text": "# Rose gone",
+    "to": [],
+    "from": []
+  },
+  "8392a9fd07dfce4e": {
+    "text": "<em class=\"green bold\">WHAT?!</em>",
+    "to": [
+      "ab6bba432f8f8448"
+    ],
+    "from": [
+      "2715b848ba1c23d9"
+    ]
+  },
+  "ab6bba432f8f8448": {
+    "text": "<em class=\"green bold\">You mean to say that this was a suicide?</em>",
+    "to": [
+      "f4711f6219b897cc"
+    ],
+    "from": [
+      "8392a9fd07dfce4e"
+    ]
+  },
+  "f4711f6219b897cc": {
+    "text": "Actually, not at all, Kane.",
+    "to": [
+      "885c084dfaf83507"
+    ],
+    "from": [
+      "ab6bba432f8f8448"
+    ]
+  },
+  "885c084dfaf83507": {
+    "text": "Or should I even call you that.",
+    "to": [
+      "4529df2254a779b5",
+      "1c85976a9bc5bb59"
+    ],
+    "from": [
+      "f4711f6219b897cc"
+    ]
+  },
+  "4529df2254a779b5": {
+    "text": "Explain, please.",
+    "to": [
+      "e6aa95719557bc8d"
+    ],
+    "from": [
+      "885c084dfaf83507"
+    ]
+  },
+  "1c85976a9bc5bb59": {
+    "text": "Now I'm really confused.",
+    "to": [
+      "e6aa95719557bc8d"
+    ],
+    "from": [
+      "885c084dfaf83507"
+    ]
+  },
+  "e6aa95719557bc8d": {
+    "text": "<em class=\"grey\">Give me a moment, ${return playerName}. You'll understand soon enough.</em>",
+    "to": [
+      "5d1b6bf397af7e74"
+    ],
+    "from": [
+      "1c85976a9bc5bb59",
+      "4529df2254a779b5"
+    ]
+  },
+  "5d1b6bf397af7e74": {
+    "text": "<em class=\"green bold\">Stop speaking in riddles! Make up your mind! Who was the murderer?!</em>",
+    "to": [
+      "9ae1dc2735353b20"
+    ],
+    "from": [
+      "e6aa95719557bc8d"
+    ]
+  },
+  "d207dae9715ba7ed": {
+    "text": "<em class=\"green bold\">Why, that's preposterous! I'm the chief of police! I signed an oath! I would never!</em>",
+    "to": [
+      "9463af85ebb0df08"
+    ],
+    "from": [
+      "9ae1dc2735353b20"
+    ]
+  },
+  "9ae1dc2735353b20": {
+    "text": "The murderer-- the <em>real</em> one-- was you, Kane.",
+    "to": [
+      "d207dae9715ba7ed"
+    ],
+    "from": [
+      "5d1b6bf397af7e74"
+    ]
+  },
+  "9463af85ebb0df08": {
+    "text": "That's what I thought, at first. But now, I know that that is a blatant lie.",
+    "to": [
+      "37319fcc3dadcc4a"
+    ],
+    "from": [
+      "d207dae9715ba7ed"
+    ]
+  },
+  "3fe34c4ce3e33700": {
+    "text": "# The truth comes out",
+    "to": [],
+    "from": []
+  },
+  "37319fcc3dadcc4a": {
+    "text": "You see, from the moment I arrived in this town, something seemed off.",
+    "to": [
+      "bada84cc9e692115"
+    ],
+    "from": [
+      "9463af85ebb0df08"
+    ]
+  },
+  "bada84cc9e692115": {
+    "text": "Something about the town seemed <em>unwelcoming</em>, in a way.",
+    "to": [
+      "c16b0ecb6ff67f92"
+    ],
+    "from": [
+      "37319fcc3dadcc4a"
+    ]
+  },
+  "c16b0ecb6ff67f92": {
+    "text": "Not to mention the fact that at first, you were trying desperately to get rid of me.",
+    "to": [
+      "e773e14a726582f3"
+    ],
+    "from": [
+      "bada84cc9e692115"
+    ]
+  },
+  "e773e14a726582f3": {
+    "text": "You never wanted me here in the first place.",
+    "to": [
+      "66759bc00de421fa"
+    ],
+    "from": [
+      "c16b0ecb6ff67f92"
+    ]
+  },
+  "66759bc00de421fa": {
+    "text": "But that all changed when you realized you could use me.",
+    "to": [
+      "be985b6e30b8f331"
+    ],
+    "from": [
+      "e773e14a726582f3"
+    ]
+  },
+  "be985b6e30b8f331": {
+    "text": "It would've taken you ages to get down into the lab and decode the formulas on your own.",
+    "to": [
+      "3b8532a666507d13"
+    ],
+    "from": [
+      "66759bc00de421fa"
+    ]
+  },
+  "15b7ac7ecc08e762": {
+    "text": "<em class=\"green\">If that's the case, who do you believe the murderer to be?</em>",
+    "to": [
+      "bb6e426a61b80e63"
+    ],
+    "from": [
+      "245bad80b69d9824"
+    ]
+  },
+  "245bad80b69d9824": {
+    "text": "<em class=\"green\">Does it now, Clay?</em>",
+    "to": [
+      "15b7ac7ecc08e762"
+    ],
+    "from": [
+      "b87b8e86bcc82eb2"
+    ]
+  },
+  "429202b5e0d62038": {
+    "text": "<em class=\"grey\">The body of the late professor himself appeared before us!</em>",
+    "to": [
+      "b87b8e86bcc82eb2"
+    ],
+    "from": [
+      "ff6ca3d31e29c8ad"
+    ]
+  },
+  "3b8532a666507d13": {
+    "text": "Had I not found that note warning me of the immense danger that I was in, I wouldn't have helped you.",
+    "to": [
+      "226a1c2730db9296"
+    ],
+    "from": [
+      "be985b6e30b8f331"
+    ]
+  },
+  "226a1c2730db9296": {
+    "text": "It seems the professor was correct; As soon as I found his body, I <em>did</em> know exactly what was going on.",
+    "to": [
+      "e48bc384b15b1b59"
+    ],
+    "from": [
+      "3b8532a666507d13"
+    ]
+  },
+  "e48bc384b15b1b59": {
+    "text": "<em class=\"green\">But that still doesn't explain why you don't think I'm Douglas Kane.</em>",
+    "to": [
+      "a9bd2758bacc9028"
+    ],
+    "from": [
+      "226a1c2730db9296"
+    ]
+  },
+  "a9bd2758bacc9028": {
+    "text": "You see, you murdered the professor. And you likely would've gotten away with it, too, if it weren't for me.",
+    "to": [
+      "ecc0a17895acf73c"
+    ],
+    "from": [
+      "e48bc384b15b1b59"
+    ]
+  },
+  "ecc0a17895acf73c": {
+    "text": "When the <em>real</em> Douglas Kane summoned me, he suspected that this case would be one that would require additional support.",
+    "to": [
+      "655b23df70f77bff"
+    ],
+    "from": [
+      "a9bd2758bacc9028"
+    ]
+  },
+  "655b23df70f77bff": {
+    "text": "You killed not only the professor, but him as well, and who knows how many others. I am yet to see a single person in this town, other than you and I.",
+    "to": [
+      "e1b690bc3548ccbf"
+    ],
+    "from": [
+      "ecc0a17895acf73c"
+    ]
+  },
+  "e1b690bc3548ccbf": {
+    "text": "And then you had the <em class=\"red\">audacity</em> to impersonate Mr. Kane. There's no way I could've known, since I've never met the man. ",
+    "to": [
+      "7e08bd60c2bcd605"
+    ],
+    "from": [
+      "655b23df70f77bff"
+    ]
+  },
+  "7e08bd60c2bcd605": {
+    "text": "I tried looking for a photograph inside the police station, a newspaper, anything, with Mr. Kane on it, but I couldn't find a thing.",
+    "to": [
+      "f2572909367dbd26"
+    ],
+    "from": [
+      "e1b690bc3548ccbf"
+    ]
+  },
+  "f2572909367dbd26": {
+    "text": "I guess you cleaned up nicely.",
+    "to": [
+      "e9342ea2cfe26127"
+    ],
+    "from": [
+      "7e08bd60c2bcd605"
+    ]
+  },
+  "e9342ea2cfe26127": {
+    "text": "Additionally, I never actually got to meet the five suspects for this case; I wasn't even permitted to know their names, for \"security reasons.\"",
+    "to": [
+      "37d0b877846310b2"
+    ],
+    "from": [
+      "f2572909367dbd26"
+    ]
+  },
+  "c9ffa2e16fa1ccbe": {
+    "text": "But, in the most polite way I can phrase this, \"Mr. Kane,\" <em class=\"red bold\">I am no idiot.</em>",
+    "to": [
+      "229d4d10388d6634"
+    ],
+    "from": [
+      "37d0b877846310b2"
+    ]
+  },
+  "229d4d10388d6634": {
+    "text": "You tried to lead me away from the trails you left in the carpet, when you dragged the professor's body into the closet.",
+    "to": [
+      "623ae636d2242f2e"
+    ],
+    "from": [
+      "c9ffa2e16fa1ccbe"
+    ]
+  },
+  "623ae636d2242f2e": {
+    "text": "But the fibers in the carpet showed that the object had been dragged the opposite direction than what you were telling me.",
+    "to": [
+      "c479661bee25b6b3",
+      "004028702b13c8b1"
+    ],
+    "from": [
+      "229d4d10388d6634"
+    ]
+  },
+  "004028702b13c8b1": {
+    "text": "Then why pretend it was a suicide?",
+    "to": [
+      "45d256d8698c4c9b"
+    ],
+    "from": [
+      "623ae636d2242f2e"
+    ]
+  },
+  "c479661bee25b6b3": {
+    "text": "There's one thing I still don't understand.",
+    "to": [
+      "45d256d8698c4c9b"
+    ],
+    "from": [
+      "623ae636d2242f2e"
+    ]
+  },
+  "45d256d8698c4c9b": {
+    "text": "<em class=\"grey\">I was just getting to that part.</em>",
+    "to": [
+      "3e938726b7182cc1"
+    ],
+    "from": [
+      "004028702b13c8b1",
+      "c479661bee25b6b3"
+    ]
+  },
+  "3e938726b7182cc1": {
+    "text": "One more thing I did, just to make sure there wasn't any chance I was wrong.",
+    "to": [
+      "4842d6a2bb2a0d14"
+    ],
+    "from": [
+      "45d256d8698c4c9b"
+    ]
+  },
+  "4842d6a2bb2a0d14": {
+    "text": "Just to give you one last chance to prove your innocence.",
+    "to": [
+      "11fd01cffb0a8ab9"
+    ],
+    "from": [
+      "3e938726b7182cc1"
+    ]
+  },
+  "11fd01cffb0a8ab9": {
+    "text": "<em class=\"green\">And what would that be, Clay?</em>",
+    "to": [
+      "5097903d30f1c749"
+    ],
+    "from": [
+      "4842d6a2bb2a0d14"
+    ]
+  },
+  "5097903d30f1c749": {
+    "text": "Every single time we stumbled upon something surprising in this investigation, you did a phenomenal job of acting surprised.",
+    "to": [
+      "9fd7d242c1a1d43d"
+    ],
+    "from": [
+      "11fd01cffb0a8ab9"
+    ]
+  },
+  "1a7538e99d108e0f": {
+    "text": "You see, when I told you I had solved the case, you got worried.",
+    "to": [
+      "e379e11b4ce6493a"
+    ],
+    "from": [
+      "189ecab06c9668b5"
+    ]
+  },
+  "e379e11b4ce6493a": {
+    "text": "You figured I would turn and convict you; After all, I have yet to be wrong.",
+    "to": [
+      "10382499f51865c4"
+    ],
+    "from": [
+      "1a7538e99d108e0f"
+    ]
+  },
+  "10382499f51865c4": {
+    "text": "But I didn't. I suggested a suicide, which genuinely surprised you.",
+    "to": [
+      "0d2f7de3cb9d5f64"
+    ],
+    "from": [
+      "e379e11b4ce6493a"
+    ]
+  },
+  "0d2f7de3cb9d5f64": {
+    "text": "And let me tell you, your eyes widened more than I ever could have hoped for, proving that you'd been acting this entire time.",
+    "to": [
+      "87ed26345eabbbe8"
+    ],
+    "from": [
+      "10382499f51865c4"
+    ]
+  },
+  "87ed26345eabbbe8": {
+    "text": "Which, in turn, proves that you knew what was going on this entire time.",
+    "to": [
+      "09cdd13b23af83a5"
+    ],
+    "from": [
+      "0d2f7de3cb9d5f64"
+    ]
+  },
+  "09cdd13b23af83a5": {
+    "text": "Now, I couldn't be bothered to know who you <em>really</em> are, but I would like to ask you one question.",
+    "to": [
+      "34b9e08cf027f1f0"
+    ],
+    "from": [
+      "87ed26345eabbbe8"
+    ]
+  },
+  "34b9e08cf027f1f0": {
+    "text": "The one thing that I really, truly do not understand after all this time.",
+    "to": [
+      "bfb57f9992e197fe"
+    ],
+    "from": [
+      "09cdd13b23af83a5"
+    ]
+  },
+  "bfb57f9992e197fe": {
+    "text": "<em>Why?</em>",
+    "to": [
+      "78bd950877260330"
+    ],
+    "from": [
+      "34b9e08cf027f1f0"
+    ]
+  },
+  "78bd950877260330": {
+    "text": "What cause could possibly be worth the mass murder of an entire village?${outputSpeed = 500}",
+    "to": [
+      "8ab45efd06d6ffa8"
+    ],
+    "from": [
+      "bfb57f9992e197fe"
+    ]
+  },
+  "8ab45efd06d6ffa8": {
+    "text": "<em class=\"red\">What do you have to say for yourself?</em>${outputSpeed = 50}",
+    "to": [
+      "9b46801edc2705b2"
+    ],
+    "from": [
+      "78bd950877260330"
+    ]
+  },
+  "093bd0f3c89cbc79": {
+    "text": "# The lab opens",
+    "to": [],
+    "from": []
+  },
+  "9b46801edc2705b2": {
+    "text": "<em class=\"green\">Um... Er...</em>",
+    "to": [
+      "b6d954d81654e1c3"
+    ],
+    "from": [
+      "8ab45efd06d6ffa8"
+    ]
+  },
+  "9fd7d242c1a1d43d": {
+    "text": "Except that your eyes never widened.",
+    "to": [
+      "4a8bf8f4924d34e8"
+    ],
+    "from": [
+      "5097903d30f1c749"
+    ]
+  },
+  "b6d954d81654e1c3": {
+    "text": "Speechless. ",
+    "to": [
+      "ea5699bfa7f6ba68"
+    ],
+    "from": [
+      "9b46801edc2705b2"
+    ]
+  },
+  "ea5699bfa7f6ba68": {
+    "text": "I am <em class=\"red\">disgusted</em> by you.",
+    "to": [
+      "8b3278d34b43b4a5"
+    ],
+    "from": [
+      "b6d954d81654e1c3"
+    ]
+  },
+  "f92e53f32fda6af3": {
+    "text": "<em class=\"green\">None of that matters now. My getaway is finally here.</em>",
+    "to": [
+      "e1e2cf103839cf70"
+    ],
+    "from": [
+      "6ab7839517119e95"
+    ]
+  },
+  "e1e2cf103839cf70": {
+    "text": "<em class=\"grey\">${return playerName}! He's boarding a helicopter!</em>",
+    "to": [
+      "29a69490072967c9"
+    ],
+    "from": [
+      "f92e53f32fda6af3"
+    ]
+  },
+  "29a69490072967c9": {
+    "text": "<em class=\"green\">The only people who know about this are here in this very town!</em>",
+    "to": [
+      "ccb04c2a4e83d5db"
+    ],
+    "from": [
+      "e1e2cf103839cf70"
+    ]
+  },
+  "ccb04c2a4e83d5db": {
+    "text": "<em class=\"green\">I've rigged the entire place with explosives that will be detonated in just a few short minutes!</em>",
+    "to": [
+      "7cf15dbf69661090"
+    ],
+    "from": [
+      "29a69490072967c9"
+    ]
+  },
+  "7cf15dbf69661090": {
+    "text": "<em class=\"green\">Au revoir!</em>",
+    "to": [
+      "824d475a267b571a"
+    ],
+    "from": [
+      "ccb04c2a4e83d5db"
+    ]
+  },
+  "824d475a267b571a": {
+    "text": "He's getting away! ${return playerName}, what should I do?",
+    "to": [
+      "812e941972d16bb3",
+      "32b7e4a1087a1d68"
+    ],
+    "from": [
+      "7cf15dbf69661090"
+    ]
+  },
+  "32b7e4a1087a1d68": {
+    "text": "Go after him!",
+    "to": [
+      "da0bfecc3961ab70"
+    ],
+    "from": [
+      "824d475a267b571a"
+    ]
+  },
+  "812e941972d16bb3": {
+    "text": "Stay here and try to defuse the bomb!",
+    "to": [
+      "cb5fb9eac4c98d10"
+    ],
+    "from": [
+      "824d475a267b571a"
+    ]
+  },
+  "cb5fb9eac4c98d10": {
+    "text": "That will likely be the more difficult path. Are you sure, ${return playerName}?",
+    "to": [
+      "92d1d515f108e15a",
+      "2472f7af47459f23"
+    ],
+    "from": [
+      "812e941972d16bb3"
+    ]
+  },
+  "2472f7af47459f23": {
+    "text": "Nevermind.",
+    "to": [
+      "da0bfecc3961ab70"
+    ],
+    "from": [
+      "cb5fb9eac4c98d10"
+    ]
+  },
+  "92d1d515f108e15a": {
+    "text": "Absolutely.",
+    "to": [
+      "d0dc2511a4a51ff8"
+    ],
+    "from": [
+      "cb5fb9eac4c98d10"
+    ]
+  },
+  "d0dc2511a4a51ff8": {
+    "text": "Okay then, let's do this.",
+    "to": [
+      "967261632c7d8184"
+    ],
+    "from": [
+      "92d1d515f108e15a"
+    ]
+  },
+  "967261632c7d8184": {
+    "text": "First, we'll have to figure out the location of the detonator.",
+    "to": [
+      "44a56793f3578192",
+      "f2d51854a449f55e"
+    ],
+    "from": [
+      "d0dc2511a4a51ff8"
+    ]
+  },
+  "44a56793f3578192": {
+    "text": "Wouldn't there have to be multiple charges?",
+    "to": [
+      "0ca5907138e49ef5"
+    ],
+    "from": [
+      "967261632c7d8184"
+    ]
+  },
+  "0ca5907138e49ef5": {
+    "text": "Well, yes, but there would be one central detonator that activates all of those charges.",
+    "to": [
+      "d3813a53f3766037"
+    ],
+    "from": [
+      "44a56793f3578192"
+    ]
+  },
+  "d3813a53f3766037": {
+    "text": "I think it would be in a central location, like town hall.",
+    "to": [
+      "008200c2274ed268"
+    ],
+    "from": [
+      "0ca5907138e49ef5"
+    ]
+  },
+  "6145ad51792805cd": {
+    "text": "Yes, that's exactly what I was thinking. Probably town hall, actually.",
+    "to": [
+      "008200c2274ed268"
+    ],
+    "from": [
+      "f2d51854a449f55e"
+    ]
+  },
+  "f2d51854a449f55e": {
+    "text": "Would it be in the center of town?",
+    "to": [
+      "6145ad51792805cd"
+    ],
+    "from": [
+      "967261632c7d8184"
+    ]
+  },
+  "008200c2274ed268": {
+    "text": "I guess that's where I should head next.",
+    "to": [
+      "7aa0f323c0e46e7b",
+      "deeb9ffec050d6cf"
+    ],
+    "from": [
+      "d3813a53f3766037",
+      "6145ad51792805cd"
+    ]
+  },
+  "7aa0f323c0e46e7b": {
+    "text": "Great idea.",
+    "to": [
+      "4c42daf4ddf8cd87"
+    ],
+    "from": [
+      "008200c2274ed268"
+    ]
+  },
+  "deeb9ffec050d6cf": {
+    "text": "Do you think it could be in the police station?",
+    "to": [
+      "00641e43f8d9c691"
+    ],
+    "from": [
+      "008200c2274ed268"
+    ]
+  },
+  "4c42daf4ddf8cd87": {
+    "text": "I'll run there now.${startTimer(240000)}",
+    "to": [
+      "2c4df7bf446d0ae4"
+    ],
+    "from": [
+      "7aa0f323c0e46e7b"
+    ]
+  },
+  "00641e43f8d9c691": {
+    "text": "That--",
+    "to": [
+      "4f2aed8089583354"
+    ],
+    "from": [
+      "deeb9ffec050d6cf"
+    ]
+  },
+  "4f2aed8089583354": {
+    "text": "Did not occur to me.",
+    "to": [
+      "45b0142c74b1b912"
+    ],
+    "from": [
+      "00641e43f8d9c691"
+    ]
+  },
+  "45b0142c74b1b912": {
+    "text": "But now that I'm thinking about it, that seems much more likely than the town hall.",
+    "to": [
+      "587748598adc4d55"
+    ],
+    "from": [
+      "4f2aed8089583354"
+    ]
+  },
+  "2c4df7bf446d0ae4": {
+    "text": "Okay, so I got to the hall and looked around a bit.",
+    "to": [
+      "3020172bf42194da"
+    ],
+    "from": [
+      "4c42daf4ddf8cd87"
+    ]
+  },
+  "3020172bf42194da": {
+    "text": "I should add that it's very small, not a lot of hiding places.",
+    "to": [
+      "e35ebaa12a4fe800"
+    ],
+    "from": [
+      "2c4df7bf446d0ae4"
+    ]
+  },
+  "e35ebaa12a4fe800": {
+    "text": "I couldn't find the detonator.",
+    "to": [
+      "577d2f73e4c32c65"
+    ],
+    "from": [
+      "3020172bf42194da"
+    ]
+  },
+  "577d2f73e4c32c65": {
+    "text": "It is absolutely not here.",
+    "to": [
+      "3d860d3459d30834",
+      "e818a89a2e7b492c"
+    ],
+    "from": [
+      "e35ebaa12a4fe800"
+    ]
+  },
+  "3d860d3459d30834": {
+    "text": "Maybe it's somewhere else.",
+    "to": [
+      "d9d478e6813713a0"
+    ],
+    "from": [
+      "577d2f73e4c32c65"
+    ]
+  },
+  "587748598adc4d55": {
+    "text": "After all, the man spent so much time there. ",
+    "to": [
+      "f33d4f85c2134b42"
+    ],
+    "from": [
+      "45b0142c74b1b912"
+    ]
+  },
+  "e818a89a2e7b492c": {
+    "text": "Try the police station!",
+    "to": [
+      "8e7545df137f3a4d"
+    ],
+    "from": [
+      "577d2f73e4c32c65"
+    ]
+  },
+  "8e7545df137f3a4d": {
+    "text": "Of course!",
+    "to": [
+      "a83624a3b43d2bfe"
+    ],
+    "from": [
+      "e818a89a2e7b492c"
+    ]
+  },
+  "a83624a3b43d2bfe": {
+    "text": "Kane-- or rather, <em>not</em> Kane, must have spent a ton of time there.",
+    "to": [
+      "f33d4f85c2134b42"
+    ],
+    "from": [
+      "8e7545df137f3a4d"
+    ]
+  },
+  "d9d478e6813713a0": {
+    "text": "But where?",
+    "to": [
+      "0075e2b2a1122243"
+    ],
+    "from": [
+      "3d860d3459d30834"
+    ]
+  },
+  "1c016d3a513a700e": {
+    "text": "...I know! The police station!",
+    "to": [
+      "f33d4f85c2134b42"
+    ],
+    "from": [
+      "0075e2b2a1122243"
+    ]
+  },
+  "0075e2b2a1122243": {
+    "text": "Where's somewhere Kane-- or rather, <em>not</em> Kane, is familiar with?",
+    "to": [
+      "1c016d3a513a700e"
+    ],
+    "from": [
+      "d9d478e6813713a0"
+    ]
+  },
+  "ccada5e0b7d221fa": {
+    "text": "He hasn't made it to the helicopter yet, so maybe if I sprint fast enough....",
+    "to": [
+      "c0e55c628662d354"
+    ],
+    "from": [
+      "da0bfecc3961ab70"
+    ]
+  },
+  "da0bfecc3961ab70": {
+    "text": "Alright then, I'll go after him!",
+    "to": [
+      "ccada5e0b7d221fa"
+    ],
+    "from": [
+      "2472f7af47459f23",
+      "32b7e4a1087a1d68"
+    ]
+  },
+  "c0e55c628662d354": {
+    "text": "<em>He's-- he's taking off--</em>",
+    "to": [
+      "84cb48133328ff1c"
+    ],
+    "from": [
+      "ccada5e0b7d221fa"
+    ]
+  },
+  "84cb48133328ff1c": {
+    "text": "<em>Just one more--</em>",
+    "to": [
+      "34d77bf7765e7d66"
+    ],
+    "from": [
+      "c0e55c628662d354"
+    ]
+  },
+  "34d77bf7765e7d66": {
+    "text": "<em>Finally!</em>",
+    "to": [
+      "d10aa066764a4de3"
+    ],
+    "from": [
+      "84cb48133328ff1c"
+    ]
+  },
+  "397078a3bed29eb0": {
+    "text": "Alright ${return playerName}, I've made it!",
+    "to": [
+      "7aceca07fab27f49"
+    ],
+    "from": [
+      "483387fc29e2965e"
+    ]
+  },
+  "417aedea2a01b741": {
+    "text": "# Police station bomb defuse",
+    "to": [],
+    "from": []
+  },
+  "d10aa066764a4de3": {
+    "text": "I managed to catch onto the landing gear of the helicopter as it was taking off.",
+    "to": [
+      "a8b3b5cef781a790",
+      "14bf888ac60fe3c1"
+    ],
+    "from": [
+      "34d77bf7765e7d66"
+    ]
+  },
+  "7aceca07fab27f49": {
+    "text": "Now, we've got no time to waste. I'm going to look around and--",
+    "to": [
+      "7fecffee84535c40",
+      "62de247715bf5830"
+    ],
+    "from": [
+      "397078a3bed29eb0"
+    ]
+  },
+  "7fecffee84535c40": {
+    "text": "What's the matter?",
+    "to": [
+      "2843ce26d6701930"
+    ],
+    "from": [
+      "7aceca07fab27f49"
+    ]
+  },
+  "62de247715bf5830": {
+    "text": "Are you alright?",
+    "to": [
+      "b61744d72ad0aac0"
+    ],
+    "from": [
+      "7aceca07fab27f49"
+    ]
+  },
+  "2843ce26d6701930": {
+    "text": "Let's just say I'm not going to have to do much looking around.",
+    "to": [
+      "be805657b5e4e88d"
+    ],
+    "from": [
+      "7fecffee84535c40",
+      "b61744d72ad0aac0"
+    ]
+  },
+  "b61744d72ad0aac0": {
+    "text": "Yes, I'm fine. For now at least.",
+    "to": [
+      "2843ce26d6701930"
+    ],
+    "from": [
+      "62de247715bf5830"
+    ]
+  },
+  "be805657b5e4e88d": {
+    "text": "The bomb-- or detonator, rather-- is right behind the reception desk.",
+    "to": [
+      "fa17f4158c633eb4"
+    ],
+    "from": [
+      "2843ce26d6701930"
+    ]
+  },
+  "fa17f4158c633eb4": {
+    "text": "And good heavens, it is massive.",
+    "to": [
+      "0eccb1d8ef72ecf3",
+      "86eb2bc9d0d258ed"
+    ],
+    "from": [
+      "be805657b5e4e88d"
+    ]
+  },
+  "0eccb1d8ef72ecf3": {
+    "text": "What now?",
+    "to": [
+      "a551755f7602da9d"
+    ],
+    "from": [
+      "fa17f4158c633eb4"
+    ]
+  },
+  "86eb2bc9d0d258ed": {
+    "text": "Can you defuse it?",
+    "to": [
+      "40e203d73bd039b0"
+    ],
+    "from": [
+      "fa17f4158c633eb4"
+    ]
+  },
+  "313b71f998f2a496": {
+    "text": "Or die trying.",
+    "to": [
+      "54d7629e4e04f896",
+      "001e19d02e5ff89c"
+    ],
+    "from": [
+      "a551755f7602da9d"
+    ]
+  },
+  "a551755f7602da9d": {
+    "text": "Well, I'm going to have to defuse it, of course.",
+    "to": [
+      "313b71f998f2a496"
+    ],
+    "from": [
+      "0eccb1d8ef72ecf3"
+    ]
+  },
+  "54d7629e4e04f896": {
+    "text": "That was grim.",
+    "to": [
+      "a3060e5e488e9d9e"
+    ],
+    "from": [
+      "313b71f998f2a496"
+    ]
+  },
+  "001e19d02e5ff89c": {
+    "text": "Well, let's get to it.",
+    "to": [
+      "d470e841bef77626"
+    ],
+    "from": [
+      "313b71f998f2a496"
+    ]
+  },
+  "d470e841bef77626": {
+    "text": "Yes, let's.",
+    "to": [
+      "7af0735870eb5158"
+    ],
+    "from": [
+      "001e19d02e5ff89c"
+    ]
+  },
+  "7af0735870eb5158": {
+    "text": "This particular model of detonator is an Obsidian 6X, if I'm remembering correctly.",
+    "to": [
+      "e4be8253697a80ca"
+    ],
+    "from": [
+      "d470e841bef77626",
+      "d47c19710f3f4645",
+      "40e203d73bd039b0"
+    ]
+  },
+  "d47c19710f3f4645": {
+    "text": "I apologize if I'm rushing you, but we've no time to waste.",
+    "to": [
+      "7af0735870eb5158"
+    ],
+    "from": [
+      "a3060e5e488e9d9e"
+    ]
+  },
+  "a3060e5e488e9d9e": {
+    "text": "As is this situation, ${return playerName}.",
+    "to": [
+      "d47c19710f3f4645"
+    ],
+    "from": [
+      "54d7629e4e04f896"
+    ]
+  },
+  "e4be8253697a80ca": {
+    "text": "Obviously, I don't know the manual for every detonator ever created (although I do know quite a few by memory).",
+    "to": [
+      "10f0b8a2bfbbd901"
+    ],
+    "from": [
+      "7af0735870eb5158"
+    ]
+  },
+  "10f0b8a2bfbbd901": {
+    "text": "So, you're going to have to help me out here.",
+    "to": [
+      "cb816f915562f82b"
+    ],
+    "from": [
+      "e4be8253697a80ca"
+    ]
+  },
+  "cb816f915562f82b": {
+    "text": "And remember: <em class=\"red bold\">the clock is ticking.</em>${Puzzles[6].load()}",
+    "to": [
+      "e7e7645a98d70116"
+    ],
+    "from": [
+      "10f0b8a2bfbbd901"
+    ]
+  },
+  "3f71116596ae98e1": {
+    "text": "...Goodness! This facility is absolutely enormous!",
+    "to": [
+      "53cb04f55491e13f"
+    ],
+    "from": [
+      "6782e9ade4435580"
+    ]
+  },
+  "40e203d73bd039b0": {
+    "text": "I sure hope so. There's no time to waste, so let's get to it.",
+    "to": [
+      "7af0735870eb5158"
+    ],
+    "from": [
+      "86eb2bc9d0d258ed"
+    ]
+  },
+  "e7e7645a98d70116": {
+    "text": "Phew! ${return (Puzzles[6].timer.time >= 120000) ? 'Plenty of time to spare.' : (Puzzles[6].timer.time >= 60000)  ? 'With time to spare!' : (Puzzles[6].timer.time >= 30000)  ? 'Just in the nick of time!' : 'With barely any time to spare!'}",
+    "to": [
+      "676e6eca1c233277"
+    ],
+    "from": [
+      "cb816f915562f82b"
+    ]
+  },
+  "676e6eca1c233277": {
+    "text": "You know, for a second there, I really thought I was done for.",
+    "to": [
+      "c350f8230b728bb7"
+    ],
+    "from": [
+      "e7e7645a98d70116"
+    ]
+  },
+  "c350f8230b728bb7": {
+    "text": "...It's just so crazy to think that that could've been the end of me.",
+    "to": [
+      "df721fbdd62eff89"
+    ],
+    "from": [
+      "676e6eca1c233277"
+    ]
+  },
+  "df721fbdd62eff89": {
+    "text": "Detective Samuel Clay, simply gone.",
+    "to": [
+      "25d410ad78d9e088"
+    ],
+    "from": [
+      "c350f8230b728bb7"
+    ]
+  },
+  "25d410ad78d9e088": {
+    "text": "Well, no matter. It's over, and I think we can finally consider this case solved.",
+    "to": [
+      "7998130d2118fb21",
+      "d8a9543aa47253f9"
+    ],
+    "from": [
+      "df721fbdd62eff89"
+    ]
+  },
+  "d8a9543aa47253f9": {
+    "text": "Not quite....",
+    "to": [
+      "fabc567406710e80"
+    ],
+    "from": [
+      "25d410ad78d9e088"
+    ]
+  },
+  "7998130d2118fb21": {
+    "text": "Absolutely!",
+    "to": [
+      "fff7966713573cd5"
+    ],
+    "from": [
+      "25d410ad78d9e088"
+    ]
+  },
+  "fabc567406710e80": {
+    "text": "Oh? Was there something I overlooked?",
+    "to": [
+      "c0f66e0d4f731982",
+      "5a117b422fa7fc2a"
+    ],
+    "from": [
+      "d8a9543aa47253f9"
+    ]
+  },
+  "5a117b422fa7fc2a": {
+    "text": "You're in a ghost town!",
+    "to": [
+      "0708e567c89dd6c0"
+    ],
+    "from": [
+      "fabc567406710e80"
+    ]
+  },
+  "c0f66e0d4f731982": {
+    "text": "I think that nobody lives in this town.",
+    "to": [
+      "0708e567c89dd6c0"
+    ],
+    "from": [
+      "fabc567406710e80"
+    ]
+  },
+  "048d10943098c137": {
+    "text": "Actually, that would make sense.",
+    "to": [
+      "612bf1ee7b946f8b"
+    ],
+    "from": [
+      "0708e567c89dd6c0"
+    ]
+  },
+  "0708e567c89dd6c0": {
+    "text": "Well, that's just--",
+    "to": [
+      "048d10943098c137"
+    ],
+    "from": [
+      "5a117b422fa7fc2a",
+      "c0f66e0d4f731982"
+    ]
+  },
+  "612bf1ee7b946f8b": {
+    "text": "That would explain why I never saw anybody, and why I couldn't find any newspapers or photographs.",
+    "to": [
+      "2159f82fc074ef4c"
+    ],
+    "from": [
+      "048d10943098c137"
+    ]
+  },
+  "2159f82fc074ef4c": {
+    "text": "But why does the town exist in the first place?",
+    "to": [
+      "67dcd5a6e27520c9",
+      "91d1aa522d8b8bc1"
+    ],
+    "from": [
+      "612bf1ee7b946f8b"
+    ]
+  },
+  "67dcd5a6e27520c9": {
+    "text": "Maybe everybody was evacuated after Mr. Kane was murdered.",
+    "to": [
+      "57bd633ab5bd4e22"
+    ],
+    "from": [
+      "2159f82fc074ef4c"
+    ]
+  },
+  "91d1aa522d8b8bc1": {
+    "text": "Possibly as a cover-up for the professor and his laboratory.",
+    "to": [
+      "c33b4073f645f6fe"
+    ],
+    "from": [
+      "2159f82fc074ef4c"
+    ]
+  },
+  "57bd633ab5bd4e22": {
+    "text": "I suppose it's possible.",
+    "to": [
+      "fb056c2382f2cd18"
+    ],
+    "from": [
+      "67dcd5a6e27520c9"
+    ]
+  },
+  "fb056c2382f2cd18": {
+    "text": "But that wouldn't explain why lights were still turning on and off inside of houses.",
+    "to": [
+      "f63afb189e300e5f"
+    ],
+    "from": [
+      "57bd633ab5bd4e22"
+    ]
+  },
+  "f63afb189e300e5f": {
+    "text": "Maybe it was a way for the professor to be able to perform his studies alone, without distraction.",
+    "to": [
+      "0bb67b25c0458978"
+    ],
+    "from": [
+      "fb056c2382f2cd18",
+      "c33b4073f645f6fe"
+    ]
+  },
+  "c33b4073f645f6fe": {
+    "text": "That's what I was thinking, too.",
+    "to": [
+      "f63afb189e300e5f"
+    ],
+    "from": [
+      "91d1aa522d8b8bc1"
+    ]
+  },
+  "0bb67b25c0458978": {
+    "text": "And anyone who came to this town wouldn't see a massive lab, but just a small village hidden away in the countryside.",
+    "to": [
+      "85eae73b309039d2"
+    ],
+    "from": [
+      "f63afb189e300e5f"
+    ]
+  },
+  "85eae73b309039d2": {
+    "text": "Anyway, on to more important matters.",
+    "to": [
+      "fff7966713573cd5"
+    ],
+    "from": [
+      "0bb67b25c0458978"
+    ]
+  },
+  "dff98aa02a955686": {
+    "text": "# Bomb ending",
+    "to": [],
+    "from": []
+  },
+  "fff7966713573cd5": {
+    "text": "Unfortunately, it looks like the fake Mr. Kane is going to get away, but I've alerted the proper authorities to keep an eye out for him.${outputSpeed = 1000}",
+    "to": [
+      "3e4c70f329e27755"
+    ],
+    "from": [
+      "85eae73b309039d2",
+      "7998130d2118fb21"
+    ]
+  },
+  "05a5c9070a675555": {
+    "text": "# Helicopter fight :D",
+    "to": [],
+    "from": []
+  },
+  "a8b3b5cef781a790": {
+    "text": "Be careful!",
+    "to": [
+      "5b6d0ec38b30fd15"
+    ],
+    "from": [
+      "d10aa066764a4de3"
+    ]
+  },
+  "e11a6bd0539a209e": {
+    "text": "I'll do my best, ${return playerName}. ",
+    "to": [
+      "b32b5854d23967ce"
+    ],
+    "from": [
+      "14bf888ac60fe3c1"
+    ]
+  },
+  "5b6d0ec38b30fd15": {
+    "text": "Will do, ${return playerName}. ",
+    "to": [
+      "b32b5854d23967ce"
+    ],
+    "from": [
+      "a8b3b5cef781a790"
+    ]
+  },
+  "b32b5854d23967ce": {
+    "text": "I just need to find a way into the cabin.",
+    "to": [
+      "c558f36428308332"
+    ],
+    "from": [
+      "e11a6bd0539a209e",
+      "5b6d0ec38b30fd15"
+    ]
+  },
+  "c558f36428308332": {
+    "text": "Preferably without them seeing me.",
+    "to": [
+      "171552c5b545de8d"
+    ],
+    "from": [
+      "b32b5854d23967ce"
+    ]
+  },
+  "171552c5b545de8d": {
+    "text": "...Uh oh.",
+    "to": [
+      "5f81f6725c911aff",
+      "7ec54d1a16d3b068"
+    ],
+    "from": [
+      "c558f36428308332"
+    ]
+  },
+  "7ec54d1a16d3b068": {
+    "text": "What happened?",
+    "to": [
+      "08269c70601c42f1"
+    ],
+    "from": [
+      "171552c5b545de8d"
+    ]
+  },
+  "5f81f6725c911aff": {
+    "text": "What's wrong?",
+    "to": [
+      "08269c70601c42f1"
+    ],
+    "from": [
+      "171552c5b545de8d"
+    ]
+  },
+  "08269c70601c42f1": {
+    "text": "Remember that thing I just said about not being seen?",
+    "to": [
+      "9358d4793e47dffc"
+    ],
+    "from": [
+      "7ec54d1a16d3b068",
+      "5f81f6725c911aff"
+    ]
+  },
+  "e8da84876041a1ce": {
+    "text": "They're flying up now, and it's getting to be very windy.",
+    "to": [
+      "312dc6bef16b57bd",
+      "51b28f3183886b30"
+    ],
+    "from": [
+      "9358d4793e47dffc"
+    ]
+  },
+  "51b28f3183886b30": {
+    "text": "Try to get into the cabin!",
+    "to": [
+      "503cdd650c1edcfe"
+    ],
+    "from": [
+      "e8da84876041a1ce"
+    ]
+  },
+  "312dc6bef16b57bd": {
+    "text": "Hold on!",
+    "to": [
+      "109ad3833f31e937"
+    ],
+    "from": [
+      "e8da84876041a1ce"
+    ]
+  },
+  "109ad3833f31e937": {
+    "text": "I'm doing my best, but my fingers are getting colder at a rapid pace.",
+    "to": [
+      "63029e26bc82c0fe"
+    ],
+    "from": [
+      "312dc6bef16b57bd"
+    ]
+  },
+  "63029e26bc82c0fe": {
+    "text": "I'm going to try to see if I can get in through the door.",
+    "to": [
+      "3bd15bb9ffeeb785"
+    ],
+    "from": [
+      "109ad3833f31e937"
+    ]
+  },
+  "503cdd650c1edcfe": {
+    "text": "Okay, I'm going to try to see if I can get in through the door.",
+    "to": [
+      "3bd15bb9ffeeb785"
+    ],
+    "from": [
+      "51b28f3183886b30"
+    ]
+  },
+  "f1aa7bfe4c951623": {
+    "text": "<strong>Agh!</strong> They're trying to shake me off!",
+    "to": [
+      "9451835bbfaa619a"
+    ],
+    "from": [
+      "de94376d2a6df9f6"
+    ]
+  },
+  "3bd15bb9ffeeb785": {
+    "text": "Certainly a risky move, but I'm nearly out of options at this point.${loopDelay = 50}",
+    "to": [
+      "de94376d2a6df9f6"
+    ],
+    "from": [
+      "503cdd650c1edcfe",
+      "63029e26bc82c0fe"
+    ]
+  },
+  "de94376d2a6df9f6": {
+    "text": "It's locked, and--${loopDelay = 2000}",
+    "to": [
+      "f1aa7bfe4c951623"
+    ],
+    "from": [
+      "3bd15bb9ffeeb785"
+    ]
+  },
+  "9358d4793e47dffc": {
+    "text": "They saw me And they aren't too happy about it.",
+    "to": [
+      "e8da84876041a1ce"
+    ],
+    "from": [
+      "08269c70601c42f1"
+    ]
+  },
+  "14bf888ac60fe3c1": {
+    "text": "Hurry!",
+    "to": [
+      "e11a6bd0539a209e"
+    ],
+    "from": [
+      "d10aa066764a4de3"
+    ]
+  },
+  "9451835bbfaa619a": {
+    "text": "The door is locked!",
+    "to": [
+      "0a01d0f882ece3e9"
+    ],
+    "from": [
+      "f1aa7bfe4c951623"
+    ]
+  },
+  "0a01d0f882ece3e9": {
+    "text": "I don't-- <em>I don't think I can hold on much longer, ${return playerName}!</em>",
+    "to": [
+      "9226f3a77e6cff57",
+      "13d1b4e4b0c73537"
+    ],
+    "from": [
+      "9451835bbfaa619a"
+    ]
+  },
+  "9226f3a77e6cff57": {
+    "text": "Try to break through the window!",
+    "to": [
+      "76633dc4afe1f030"
+    ],
+    "from": [
+      "0a01d0f882ece3e9"
+    ]
+  },
+  "13d1b4e4b0c73537": {
+    "text": "Hold on just a little longer!",
+    "to": [
+      "10bc603a65d43b04"
+    ],
+    "from": [
+      "0a01d0f882ece3e9"
+    ]
+  },
+  "8b3278d34b43b4a5": {
+    "text": "There is one thing I didn't figure out, though.",
+    "to": [
+      "5d144ac4f9a1139f"
+    ],
+    "from": [
+      "ea5699bfa7f6ba68"
+    ]
+  },
+  "5d144ac4f9a1139f": {
+    "text": "If you needed my assistance to gain access to the lab, how did you hide the professor's body?",
+    "to": [
+      "f6025fed4e8fa6f8"
+    ],
+    "from": [
+      "8b3278d34b43b4a5"
+    ]
+  },
+  "f6025fed4e8fa6f8": {
+    "text": "How did you get your hands on the serum?",
+    "to": [
+      "b70bdc9b7fbc8df9"
+    ],
+    "from": [
+      "5d144ac4f9a1139f"
+    ]
+  },
+  "8c753077afc9f1c3": {
+    "text": "<em class=\"green\">Recently, I'd overheard him speaking of an invisibility serum, but I had to see for myself.</em>",
+    "to": [
+      "ed7f4514656c7a3f"
+    ],
+    "from": [
+      "1d496fc9b1b435a3"
+    ]
+  },
+  "1d496fc9b1b435a3": {
+    "text": "<em class=\"green\">I was the professor's primary assistant.</em>",
+    "to": [
+      "8c753077afc9f1c3"
+    ],
+    "from": [
+      "b70bdc9b7fbc8df9"
+    ]
+  },
+  "b70bdc9b7fbc8df9": {
+    "text": "<em class=\"green\">Well, you see...</em>",
+    "to": [
+      "1d496fc9b1b435a3"
+    ],
+    "from": [
+      "f6025fed4e8fa6f8"
+    ]
+  },
+  "ed7f4514656c7a3f": {
+    "text": "<em class=\"green\">I stole a sample and confirmed his claims.</em>",
+    "to": [
+      "6e8e13e50df6c11c"
+    ],
+    "from": [
+      "8c753077afc9f1c3"
+    ]
+  },
+  "6e8e13e50df6c11c": {
+    "text": "<em class=\"green\">When he told me he wouldn't produce it commercially, well...</em>",
+    "to": [
+      "f63a96af8631250d"
+    ],
+    "from": [
+      "ed7f4514656c7a3f"
+    ]
+  },
+  "f63a96af8631250d": {
+    "text": "You murdered him in cold blood, so you could make money off of his creation.",
+    "to": [
+      "b575fcdc2cae1ed7"
+    ],
+    "from": [
+      "6e8e13e50df6c11c"
+    ]
+  },
+  "b575fcdc2cae1ed7": {
+    "text": "I've worked with some horrendous criminals in my time, but <em>you</em>!",
+    "to": [
+      "cc37b1803e116a5d"
+    ],
+    "from": [
+      "f63a96af8631250d"
+    ]
+  },
+  "cc37b1803e116a5d": {
+    "text": "<em>You</em> are a truly awful human being.",
+    "to": [
+      "be37c7e3cf21e5c8"
+    ],
+    "from": [
+      "b575fcdc2cae1ed7"
+    ]
+  },
+  "be37c7e3cf21e5c8": {
+    "text": "You should be ashamed.",
+    "to": [
+      "63e1c100e52c4f59"
+    ],
+    "from": [
+      "cc37b1803e116a5d"
+    ]
+  },
+  "63e1c100e52c4f59": {
+    "text": "Have you even an ounce of remorse?${outputSpeed = 500}",
+    "to": [
+      "e5c2ff143d71d46b"
+    ],
+    "from": [
+      "be37c7e3cf21e5c8"
+    ]
+  },
+  "e5c2ff143d71d46b": {
+    "text": "<em class=\"green\">...</em>",
+    "to": [
+      "b0fff341daeae419"
+    ],
+    "from": [
+      "63e1c100e52c4f59"
+    ]
+  },
+  "b0fff341daeae419": {
+    "text": "<em class=\"green\">. . .</em>${outputSpeed = 50}",
+    "to": [
+      "6ab7839517119e95"
+    ],
+    "from": [
+      "e5c2ff143d71d46b"
+    ]
+  },
+  "6ab7839517119e95": {
+    "text": "<em class=\"green\">Ha! You really think you can get to me?</em>",
+    "to": [
+      "f92e53f32fda6af3"
+    ],
+    "from": [
+      "b0fff341daeae419"
+    ]
+  },
+  "10bc603a65d43b04": {
+    "text": "I'm sorry, ${return playerName}, but I really don't think I can keep this up!",
+    "to": [
+      "d2fc42fd60a19325"
+    ],
+    "from": [
+      "13d1b4e4b0c73537"
+    ]
+  },
+  "d2fc42fd60a19325": {
+    "text": "I'm going to try to get into the cockpit!",
+    "to": [
+      "e06b6c58de4d43ab"
+    ],
+    "from": [
+      "10bc603a65d43b04"
+    ]
+  },
+  "e06b6c58de4d43ab": {
+    "text": "I think I'll have to enter through a window!",
+    "to": [
+      "2310ea6b2bda3bc6"
+    ],
+    "from": [
+      "d2fc42fd60a19325"
+    ]
+  },
+  "76633dc4afe1f030": {
+    "text": "Okay, I'll do my best!",
+    "to": [
+      "2310ea6b2bda3bc6"
+    ],
+    "from": [
+      "9226f3a77e6cff57"
+    ]
+  },
+  "2310ea6b2bda3bc6": {
+    "text": "I'm climbing up now!",
+    "to": [
+      "12fdd82168e561ec"
+    ],
+    "from": [
+      "76633dc4afe1f030",
+      "e06b6c58de4d43ab"
+    ]
+  },
+  "12fdd82168e561ec": {
+    "text": "The glass is very thick, and I can't break it with my shoulder!",
+    "to": [
+      "ff2556f1167b5b12",
+      "d4837e934050bd45"
+    ],
+    "from": [
+      "2310ea6b2bda3bc6"
+    ]
+  },
+  "d4837e934050bd45": {
+    "text": "Trust me-- make sure they see you!",
+    "to": [
+      "15f364afd13d9c5c"
+    ],
+    "from": [
+      "12fdd82168e561ec"
+    ]
+  },
+  "ff2556f1167b5b12": {
+    "text": "Try using your watch!",
+    "to": [
+      "0ef9a5bf91faac9c"
+    ],
+    "from": [
+      "12fdd82168e561ec"
+    ]
+  },
+  "df447fea886c94ed": {
+    "text": "No luck there. Any other id--${loopDelay = 2000}",
+    "to": [
+      "0e8246f3f6bd8f8b"
+    ],
+    "from": [
+      "0ef9a5bf91faac9c"
+    ]
+  },
+  "0ef9a5bf91faac9c": {
+    "text": "Of course! If I use it as a precise pressure point, I just might be able to--${loopDelay = 50}",
+    "to": [
+      "df447fea886c94ed"
+    ],
+    "from": [
+      "ff2556f1167b5b12"
+    ]
+  },
+  "15f364afd13d9c5c": {
+    "text": "That doesn't make any sense!",
+    "to": [
+      "2b58a25062a37f67"
+    ],
+    "from": [
+      "d4837e934050bd45"
+    ]
+  },
+  "2b58a25062a37f67": {
+    "text": "If they see me, they'll shoot at me and-- oh, that's what you're going for, isn't it.",
+    "to": [
+      "4a8c70e207b843ab"
+    ],
+    "from": [
+      "15f364afd13d9c5c"
+    ]
+  },
+  "4a8c70e207b843ab": {
+    "text": "Alright, I'm trusting you here, ${loopDelay = 50; return playerName}.",
+    "to": [
+      "46b3373581666683"
+    ],
+    "from": [
+      "2b58a25062a37f67"
+    ]
+  },
+  "46b3373581666683": {
+    "text": "I'm taunting them now, and it looks like--${loopDelay = 2000}",
+    "to": [
+      "0e8246f3f6bd8f8b"
+    ],
+    "from": [
+      "4a8c70e207b843ab"
+    ]
+  },
+  "0e8246f3f6bd8f8b": {
+    "text": "<em class=\"red\">Agh! I've been shot!</em>",
+    "to": [
+      "1ffb554f85ed9325"
+    ],
+    "from": [
+      "46b3373581666683",
+      "df447fea886c94ed"
+    ]
+  },
+  "1ffb554f85ed9325": {
+    "text": "Right in my left shoulder; I should be fine for now, but I've only got few minutes before it becomes an issue.",
+    "to": [
+      "ae716a72ceb02eb1"
+    ],
+    "from": [
+      "0e8246f3f6bd8f8b"
+    ]
+  },
+  "ae716a72ceb02eb1": {
+    "text": "On the bright side, the glass is broken! I'm climbing in!",
+    "to": [
+      "c46568c2fa3288d7"
+    ],
+    "from": [
+      "1ffb554f85ed9325"
+    ]
+  },
+  "85f43b7d78426345": {
+    "text": "<em class=\"green\">I'd like you to meet my pilot, Percival.</em>",
+    "to": [
+      "f64746c49e93f5c5"
+    ],
+    "from": [
+      "c46568c2fa3288d7"
+    ]
+  },
+  "f64746c49e93f5c5": {
+    "text": "You must stop this nonsense! You are a wanted man!",
+    "to": [
+      "782697a9f6d4cef1"
+    ],
+    "from": [
+      "85f43b7d78426345"
+    ]
+  },
+  "c46568c2fa3288d7": {
+    "text": "<em class=\"green\">Fancy seeing you here, Clay.</em>",
+    "to": [
+      "85f43b7d78426345"
+    ],
+    "from": [
+      "ae716a72ceb02eb1"
+    ]
+  },
+  "782697a9f6d4cef1": {
+    "text": "I've already alerted the authorities of your location and description!",
+    "to": [
+      "e881c4c500d2c059"
+    ],
+    "from": [
+      "f64746c49e93f5c5"
+    ]
+  },
+  "e881c4c500d2c059": {
+    "text": "Cooperate, and I can help soften your sentence!",
+    "to": [
+      "5c51de8a2c8044c2"
+    ],
+    "from": [
+      "782697a9f6d4cef1"
+    ]
+  },
+  "5c51de8a2c8044c2": {
+    "text": "<em class=\"green\">Percy, be a dear and open the door, will you?</em>",
+    "to": [
+      "e17d3a53d65ae391"
+    ],
+    "from": [
+      "e881c4c500d2c059"
+    ]
+  },
+  "e17d3a53d65ae391": {
+    "text": "<em class=\"green\">What are you going to do about it, Clay?</em>",
+    "to": [
+      "20073c138bd5c1f4"
+    ],
+    "from": [
+      "5c51de8a2c8044c2"
+    ]
+  },
+  "20073c138bd5c1f4": {
+    "text": "<em class=\"green\">What if I say no?</em>",
+    "to": [
+      "e21c4f7d5baf1966"
+    ],
+    "from": [
+      "e17d3a53d65ae391"
+    ]
+  },
+  "e21c4f7d5baf1966": {
+    "text": "<em class=\"green\">I mean, let's just assess your situation.</em>",
+    "to": [
+      "1428a2828412604e"
+    ],
+    "from": [
+      "20073c138bd5c1f4"
+    ]
+  },
+  "1428a2828412604e": {
+    "text": "<em class=\"green\">You are standing just next to an open helicopter door, defenseless, with a gun pointed at your chest.</em>",
+    "to": [
+      "48521d44565a0ffd"
+    ],
+    "from": [
+      "e21c4f7d5baf1966"
+    ]
+  },
+  "48521d44565a0ffd": {
+    "text": "<em class=\"green\">I shot you once. What's to stop me from doing it again?</em>",
+    "to": [
+      "bbf63fe18acc3db4"
+    ],
+    "from": [
+      "1428a2828412604e"
+    ]
+  },
+  "bbf63fe18acc3db4": {
+    "text": "<em class=\"green\">You have no weapon.</em>",
+    "to": [
+      "04a35c250dc2add8"
+    ],
+    "from": [
+      "48521d44565a0ffd"
+    ]
+  },
+  "04a35c250dc2add8": {
+    "text": "That's where you're wrong.",
+    "to": [
+      "5506263d610b4283"
+    ],
+    "from": [
+      "bbf63fe18acc3db4"
+    ]
+  },
+  "44ce3c5300f5c68b": {
+    "text": "<em class=\"green\">Not to mention the knife and smoke bomb.</em>",
+    "to": [
+      "a5639cc8ae7c5f0a"
+    ],
+    "from": [
+      "5506263d610b4283"
+    ]
+  },
+  "5506263d610b4283": {
+    "text": "<em class=\"green\">Oh really? I stole your pistol from you in the lab, and you didn't notice.</em>",
+    "to": [
+      "44ce3c5300f5c68b"
+    ],
+    "from": [
+      "04a35c250dc2add8"
+    ]
+  },
+  "a5639cc8ae7c5f0a": {
+    "text": "You're forgetting something.",
+    "to": [
+      "79e1a110e7a032c6"
+    ],
+    "from": [
+      "44ce3c5300f5c68b"
+    ]
+  },
+  "79e1a110e7a032c6": {
+    "text": "<em class=\"green\">Oh, am I?</em>",
+    "to": [
+      "7537f112f81d6f17"
+    ],
+    "from": [
+      "a5639cc8ae7c5f0a"
+    ]
+  },
+  "7537f112f81d6f17": {
+    "text": "You may have the chemical formula for the serum, but I still have the sample.",
+    "to": [
+      "eb7f5573c61678b5"
+    ],
+    "from": [
+      "79e1a110e7a032c6"
+    ]
+  },
+  "eb7f5573c61678b5": {
+    "text": "<em class=\"green\">Clay, if you turn invisible now, I can just push you out the door.</em>",
+    "to": [
+      "9b4948ada76fd71b"
+    ],
+    "from": [
+      "7537f112f81d6f17"
+    ]
+  },
+  "9b4948ada76fd71b": {
+    "text": "It's not me who's going invisible.",
+    "to": [
+      "0f1eef41fe8c0689"
+    ],
+    "from": [
+      "eb7f5573c61678b5"
+    ]
+  },
+  "0f1eef41fe8c0689": {
+    "text": "You see, if something is invisible, that must mean that not a single light particle will touch it. So, if I just...",
+    "to": [
+      "2c5053c99196856d"
+    ],
+    "from": [
+      "9b4948ada76fd71b"
+    ]
+  },
+  "2c5053c99196856d": {
+    "text": "<em class=\"green\">Ugh! I've been blinded!</em>",
+    "to": [
+      "45437afdf172feb4"
+    ],
+    "from": [
+      "0f1eef41fe8c0689"
+    ]
+  },
+  "45437afdf172feb4": {
+    "text": "So, if I splash a little into your eyes, you won't be able to see a thi-- no, step away from there!",
+    "to": [
+      "f6b80f5289463a77"
+    ],
+    "from": [
+      "2c5053c99196856d"
+    ]
+  },
+  "f6b80f5289463a77": {
+    "text": "<em class=\"green\">CLAY!!</em>",
+    "to": [
+      "3772e6c3955f24d3"
+    ],
+    "from": [
+      "45437afdf172feb4"
+    ]
+  },
+  "3772e6c3955f24d3": {
+    "text": "No!",
+    "to": [
+      "23d2266b6d43b092",
+      "e9797660173c31ba"
+    ],
+    "from": [
+      "f6b80f5289463a77"
+    ]
+  },
+  "e9797660173c31ba": {
+    "text": "What happened?",
+    "to": [
+      "39b24751c051c6d6"
+    ],
+    "from": [
+      "3772e6c3955f24d3"
+    ]
+  },
+  "23d2266b6d43b092": {
+    "text": "What's wrong!",
+    "to": [
+      "39b24751c051c6d6"
+    ],
+    "from": [
+      "3772e6c3955f24d3"
+    ]
+  },
+  "cb8b900a4329f0a4": {
+    "text": "It appears our man stumbled right out the door.",
+    "to": [
+      "ef6cdf34ee53218d"
+    ],
+    "from": [
+      "39b24751c051c6d6"
+    ]
+  },
+  "39b24751c051c6d6": {
+    "text": "It--",
+    "to": [
+      "cb8b900a4329f0a4"
+    ],
+    "from": [
+      "e9797660173c31ba",
+      "23d2266b6d43b092"
+    ]
+  },
+  "ef6cdf34ee53218d": {
+    "text": "Completely blinded by the serum, he couldn't see a thing.",
+    "to": [
+      "349e1ebe01aa6fa8"
+    ],
+    "from": [
+      "cb8b900a4329f0a4"
+    ]
+  },
+  "349e1ebe01aa6fa8": {
+    "text": "I assumed there would be mild panic, but I never imagined that he would...${outputSpeed = 1000}",
+    "to": [
+      "495e92246990ba1c"
+    ],
+    "from": [
+      "ef6cdf34ee53218d"
+    ]
+  },
+  "495e92246990ba1c": {
+    "text": ". . .${outputSpeed = 50}",
+    "to": [
+      "f2acf5e4fec0f2c1",
+      "58c5604f7f1b8580"
+    ],
+    "from": [
+      "349e1ebe01aa6fa8"
+    ]
+  },
+  "58c5604f7f1b8580": {
+    "text": "It wasn't your fault.",
+    "to": [
+      "8acf263081297c8c"
+    ],
+    "from": [
+      "495e92246990ba1c"
+    ]
+  },
+  "f2acf5e4fec0f2c1": {
+    "text": "You couldn't have known.",
+    "to": [
+      "8acf263081297c8c"
+    ],
+    "from": [
+      "495e92246990ba1c"
+    ]
+  },
+  "bbe0e0ddd4dcd884": {
+    "text": "He brought this upon himself.",
+    "to": [
+      "e7cc2d334a89470e"
+    ],
+    "from": [
+      "8acf263081297c8c"
+    ]
+  },
+  "8acf263081297c8c": {
+    "text": "You're right.",
+    "to": [
+      "bbe0e0ddd4dcd884"
+    ],
+    "from": [
+      "58c5604f7f1b8580",
+      "f2acf5e4fec0f2c1"
+    ]
+  },
+  "e7cc2d334a89470e": {
+    "text": "<em class=\"green\">Well done, Mr. Clay.</em>",
+    "to": [
+      "00584e421bf812e0"
+    ],
+    "from": [
+      "bbe0e0ddd4dcd884"
+    ]
+  },
+  "b57642c9210e1a8e": {
+    "text": "<em class=\"green\">No, I'll cooperate.</em>",
+    "to": [
+      "2f39f15268eaf470"
+    ],
+    "from": [
+      "00584e421bf812e0"
+    ]
+  },
+  "2f39f15268eaf470": {
+    "text": "Thank you. I'll take the controls, if you could close the door and sit down over there.",
+    "to": [
+      "ca4d1be773ebceb2"
+    ],
+    "from": [
+      "b57642c9210e1a8e"
+    ]
+  },
+  "ca4d1be773ebceb2": {
+    "text": "<em class=\"green\">Of course.</em>",
+    "to": [
+      "da57b68b85964985"
+    ],
+    "from": [
+      "2f39f15268eaf470"
+    ]
+  },
+  "da57b68b85964985": {
+    "text": "Well ${return playerName}, I'm going to return us to the ground, where the authorities are waiting.",
+    "to": [
+      "1cd2c0de11438dbc"
+    ],
+    "from": [
+      "ca4d1be773ebceb2"
+    ]
+  },
+  "1cd2c0de11438dbc": {
+    "text": "I'll talk to you then.",
+    "to": [
+      "161b7748cddd0462"
+    ],
+    "from": [
+      "da57b68b85964985"
+    ]
+  },
+  "161b7748cddd0462": {
+    "text": "<em class=\"red bold\">~ The detective is landing ~</em>${startTimer(90000)}",
+    "to": [
+      "4db50c0d60006b10"
+    ],
+    "from": [
+      "1cd2c0de11438dbc"
+    ]
+  },
+  "00584e421bf812e0": {
+    "text": "Thank you, Percival. I'm assuming I don't need to use the same persuasive tactics on you?",
+    "to": [
+      "b57642c9210e1a8e"
+    ],
+    "from": [
+      "e7cc2d334a89470e"
+    ]
+  },
+  "01732ebff9c2ea5d": {
+    "text": "It looks like this is where we part ways, ${return playerName}.",
+    "to": [
+      "2dbf1f5133d1aba4"
+    ],
+    "from": [
+      "3e4c70f329e27755"
+    ]
+  },
+  "002af17c0da5742e": {
+    "text": "But for now...",
+    "to": [
+      "8d20a65acb734313"
+    ],
+    "from": [
+      "539aa9d1a16d2afd"
+    ]
+  },
+  "067d95df2a4dd06c": {
+    "text": "<em class=\"red bold\">~ To be continued ~</em>${loopDelay = 2000; outputSpeed = 50}",
+    "to": [],
+    "from": [
+      "8d20a65acb734313"
+    ]
+  },
+  "8d20a65acb734313": {
+    "text": "<em>Farewell, ${loopDelay = 3500; outputSpeed = 250; return playerName}.</em>",
+    "to": [
+      "067d95df2a4dd06c"
+    ],
+    "from": [
+      "002af17c0da5742e"
+    ]
+  },
+  "2dbf1f5133d1aba4": {
+    "text": "It truly has been a pleasure working with you.",
+    "to": [
+      "539aa9d1a16d2afd"
+    ],
+    "from": [
+      "01732ebff9c2ea5d"
+    ]
+  },
+  "539aa9d1a16d2afd": {
+    "text": "If I ever get the chance, I'll request to have you as my partner again.",
+    "to": [
+      "002af17c0da5742e"
+    ],
+    "from": [
+      "2dbf1f5133d1aba4"
+    ]
+  },
+  "3e4c70f329e27755": {
+    "text": ". . .${outputSpeed = 50}",
+    "to": [
+      "01732ebff9c2ea5d"
+    ],
+    "from": [
+      "fff7966713573cd5",
+      "5d8cf8d33a53b397",
+      "296b62f752d99b7c"
+    ]
+  },
+  "4db50c0d60006b10": {
+    "text": "You know, for a second there, I really thought I was done for.",
+    "to": [
+      "75aa8afca5442005"
+    ],
+    "from": [
+      "161b7748cddd0462"
+    ]
+  },
+  "75aa8afca5442005": {
+    "text": "...It's just so crazy to think that that could've been the end of me.",
+    "to": [
+      "3e355d314fe1b615"
+    ],
+    "from": [
+      "4db50c0d60006b10"
+    ]
+  },
+  "3e355d314fe1b615": {
+    "text": "Detective Samuel Clay, simply gone.",
+    "to": [
+      "f10ddf8f4f197be1"
+    ],
+    "from": [
+      "75aa8afca5442005"
+    ]
+  },
+  "f10ddf8f4f197be1": {
+    "text": "I am glad we were able to catch the criminal, even if we did lose him along the way.",
+    "to": [
+      "874f65113a8fd8db"
+    ],
+    "from": [
+      "3e355d314fe1b615"
+    ]
+  },
+  "874f65113a8fd8db": {
+    "text": "It's a shame, really.",
+    "to": [
+      "852bbcb46b343bc7"
+    ],
+    "from": [
+      "f10ddf8f4f197be1"
+    ]
+  },
+  "852bbcb46b343bc7": {
+    "text": "Through all my years of detective work, I've rarely been responsible for the death of another man.",
+    "to": [
+      "9a6eec11b1a426fe"
+    ],
+    "from": [
+      "874f65113a8fd8db"
+    ]
+  },
+  "152fb34dfcca1c62": {
+    "text": "Well, that's just--",
+    "to": [
+      "70a3189bc6654797"
+    ],
+    "from": [
+      "6916edb4035129ef",
+      "b92d5abd81f77f5b"
+    ]
+  },
+  "70a3189bc6654797": {
+    "text": "Actually, that would make sense.",
+    "to": [
+      "39dec22bf404f843"
+    ],
+    "from": [
+      "152fb34dfcca1c62"
+    ]
+  },
+  "39dec22bf404f843": {
+    "text": "That would explain why I never saw anybody, and why I couldn't find any newspapers or photographs.",
+    "to": [
+      "1ce6cd78efc65b32"
+    ],
+    "from": [
+      "70a3189bc6654797"
+    ]
+  },
+  "1ce6cd78efc65b32": {
+    "text": "But then why does the town exist in the first place?",
+    "to": [
+      "400688aac317b9eb",
+      "7dd751d04d0dee98"
+    ],
+    "from": [
+      "39dec22bf404f843"
+    ]
+  },
+  "e688e3187f097dae": {
+    "text": "And anyone who came to this town wouldn't see a massive lab, but just a small village hidden away in the countryside.",
+    "to": [
+      "5d8cf8d33a53b397"
+    ],
+    "from": [
+      "bf8d19e08d108d7b"
+    ]
+  },
+  "5d8cf8d33a53b397": {
+    "text": "<em>Now</em> I'll consider the case solved.${outputSpeed = 1000}",
+    "to": [
+      "3e4c70f329e27755"
+    ],
+    "from": [
+      "e688e3187f097dae"
+    ]
+  },
+  "400688aac317b9eb": {
+    "text": "Maybe everybody was evacuated after Mr. Kane was murdered.",
+    "to": [
+      "743e6b7f533b99ce"
+    ],
+    "from": [
+      "1ce6cd78efc65b32"
+    ]
+  },
+  "7dd751d04d0dee98": {
+    "text": "Possibly as a cover-up for the professor and his laboratory.",
+    "to": [
+      "0dda8d3587381598"
+    ],
+    "from": [
+      "1ce6cd78efc65b32"
+    ]
+  },
+  "743e6b7f533b99ce": {
+    "text": "I suppose it's possible.",
+    "to": [
+      "a8eb054529687be4"
+    ],
+    "from": [
+      "400688aac317b9eb"
+    ]
+  },
+  "0dda8d3587381598": {
+    "text": "That's what I was thinking, too.",
+    "to": [
+      "bf8d19e08d108d7b"
+    ],
+    "from": [
+      "7dd751d04d0dee98"
+    ]
+  },
+  "a8eb054529687be4": {
+    "text": "But that wouldn't explain why lights were still turning on and off inside of houses.",
+    "to": [
+      "bf8d19e08d108d7b"
+    ],
+    "from": [
+      "743e6b7f533b99ce"
+    ]
+  },
+  "bf8d19e08d108d7b": {
+    "text": "Maybe it was a way for the professor to be able to perform his studies alone, without distraction.",
+    "to": [
+      "e688e3187f097dae"
+    ],
+    "from": [
+      "a8eb054529687be4",
+      "0dda8d3587381598"
+    ]
+  },
+  "9a6eec11b1a426fe": {
+    "text": "Well, no matter. It's over, and I think we can finally consider this case solved.",
+    "to": [
+      "908ef8a2f760cf1a",
+      "773150b6eccce218"
+    ],
+    "from": [
+      "852bbcb46b343bc7"
+    ]
+  },
+  "908ef8a2f760cf1a": {
+    "text": "Absolutely!",
+    "to": [
+      "296b62f752d99b7c"
+    ],
+    "from": [
+      "9a6eec11b1a426fe"
+    ]
+  },
+  "773150b6eccce218": {
+    "text": "Not quite....",
+    "to": [
+      "fa841a1993c67696"
+    ],
+    "from": [
+      "9a6eec11b1a426fe"
+    ]
+  },
+  "fa841a1993c67696": {
+    "text": "Oh? Was there something I overlooked?",
+    "to": [
+      "b92d5abd81f77f5b",
+      "6916edb4035129ef"
+    ],
+    "from": [
+      "773150b6eccce218"
+    ]
+  },
+  "6916edb4035129ef": {
+    "text": "You're in a ghost town!",
+    "to": [
+      "152fb34dfcca1c62"
+    ],
+    "from": [
+      "fa841a1993c67696"
+    ]
+  },
+  "b92d5abd81f77f5b": {
+    "text": "I think that nobody lives in this town.",
+    "to": [
+      "152fb34dfcca1c62"
+    ],
+    "from": [
+      "fa841a1993c67696"
+    ]
+  },
+  "296b62f752d99b7c": {
+    "text": "Now I suppose there's nothing left to do but return home.${outputSpeed = 1000}",
+    "to": [
+      "3e4c70f329e27755"
+    ],
+    "from": [
+      "908ef8a2f760cf1a"
+    ]
+  },
+  "04470b4862e45f52": {
+    "text": "Very secluded place, Silverborough. Way out in the countryside.",
+    "to": [
+      "2ce3fdadeea4d5a5"
+    ],
+    "from": [
+      "6302a83cf9491dfa"
+    ]
+  },
+  "2ce3fdadeea4d5a5": {
+    "text": "In fact, I don't believe I've ever heard of it before now.",
+    "to": [
+      "0467b4249304f3ba"
+    ],
+    "from": [
+      "04470b4862e45f52"
+    ]
+  },
+  "d2e9f3f96900a7b8": {
+    "text": "Upon my arrival, I am to meet up with the chief of police, Mr. <em class=\"red bold\">Douglas Kane</em>.",
+    "to": [
+      "8a8efcc69db18cad"
+    ],
+    "from": [
+      "f7aaa0e4e438e686"
+    ]
+  },
+  "f7aaa0e4e438e686": {
+    "text": "In any case, I'm almost to the town.",
+    "to": [
+      "d2e9f3f96900a7b8"
+    ],
+    "from": [
+      "1b146b6dbe0a3c12"
+    ]
+  },
+  "1b146b6dbe0a3c12": {
+    "text": "But I know that whatever it is, I'll get to the bottom of it.",
+    "to": [
+      "f7aaa0e4e438e686"
+    ],
+    "from": [
+      "a12f16b763f34165"
+    ]
+  },
+  "a12f16b763f34165": {
+    "text": "Or intuition, maybe.",
+    "to": [
+      "1b146b6dbe0a3c12"
+    ],
+    "from": [
+      "afda870a357687a4"
+    ]
+  },
+  "768c6841b24d351c": {
+    "text": "Well ${return playerName}, looks like I'm on my own from here.",
+    "to": [
+      "bc1020fddcb5de0a",
+      "72cbbdeb973aba0a"
+    ],
+    "from": [
+      "01d1b943aec856b9"
+    ]
+  },
+  "c19130a8498f4676": {
+    "text": "Looks like the next leg of the journey will be by boat...${Puzzles[1].load()}",
+    "to": [
+      "5b54115e18682028"
+    ],
+    "from": [
+      "9666a2f6cf093631"
+    ]
+  },
+  "8eab03c3f3617b7b": {
+    "text": "# Town Entry",
+    "to": [],
+    "from": []
+  },
+  "e8eb8982c4b25496": {
+    "text": "Time will still pass, even when the app is closed, so feel free to do something else for a little while and check back in later.",
+    "to": [
+      "b1f34adb73ce4ca9"
+    ],
+    "from": [
+      "5773893d955acfe5"
+    ]
+  },
+  "6350af81f3fdfdda": {
+    "text": "<em class=\"green\">Hello! You must be the famous Detective Samuel Clay!</em>${loopDelay = 50}",
+    "to": [
+      "c812d142becfa69b"
+    ],
+    "from": [
+      "e6bd7c895229d5c2"
+    ]
+  },
+  "a01df87b6da19c81": {
+    "text": "<em class=\"green\">No, the pleasure is mine.</em>",
+    "to": [
+      "56c8a232ffb8768e"
+    ],
+    "from": [
+      "e020665795f3f064"
+    ]
+  },
+  "167e861f04ab19fa": {
+    "text": "<em class=\"green\">I'll help you look, but only for a few minutes and not any longer.</em>${outputSpeed = 750}",
+    "to": [
+      "72d6afd826ead243"
+    ],
+    "from": [
+      "f9d5e819b8986ee4"
+    ]
+  },
+  "72d6afd826ead243": {
+    "text": ". . .${outputSpeed = 50}",
+    "to": [
+      "5018b03446dcd9d8"
+    ],
+    "from": [
+      "167e861f04ab19fa"
+    ]
+  },
+  "69d07d63b48a5843": {
+    "text": "Yes sir. <em class=\"grey\">I'll get back to you when something noteworthy happens. this will probably take quite a while, with the lab having so much stuff in it.</em>",
+    "to": [
+      "d54f9bfa1fe53b01"
+    ],
+    "from": [
+      "7d540ddd855bb67c"
+    ]
+  },
+  "04cc68401626ee59": {
+    "text": "<em class=\"green\">How very interesting. It seems we've created an invisibility serum. May I try something?</em>",
+    "to": [
+      "43ca99a2a769e46b"
+    ],
+    "from": [
+      "e8959408e8944b2f"
+    ]
+  },
+  "37d0b877846310b2": {
+    "text": "But in reality, they never existed. You created those stories to throw me off your trail, to get me thinking that we already found the criminal.",
+    "to": [
+      "c9ffa2e16fa1ccbe"
+    ],
+    "from": [
+      "e9342ea2cfe26127"
+    ]
+  },
+  "189ecab06c9668b5": {
+    "text": "They say the eyes are the window to the soul, and in this case, that statement is quite accurate.",
+    "to": [
+      "1a7538e99d108e0f"
+    ],
+    "from": [
+      "4a8bf8f4924d34e8"
+    ]
+  },
+  "4a8bf8f4924d34e8": {
+    "text": "Not one single time.",
+    "to": [
+      "189ecab06c9668b5"
+    ],
+    "from": [
+      "9fd7d242c1a1d43d"
+    ]
+  },
+  "483387fc29e2965e": {
+    "text": "<em class=\"red bold\">~ The detective is running ~</em>${startTimer(180000)}",
+    "to": [
+      "397078a3bed29eb0"
+    ],
+    "from": [
+      "f33d4f85c2134b42"
+    ]
+  },
+  "f33d4f85c2134b42": {
+    "text": "I'll run over there now. It shouldn't take me long at all.",
+    "to": [
+      "483387fc29e2965e"
+    ],
+    "from": [
+      "587748598adc4d55",
+      "a83624a3b43d2bfe",
+      "1c016d3a513a700e"
+    ]
+  }
+}

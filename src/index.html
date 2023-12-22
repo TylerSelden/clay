@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Clay Files</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+      body {
+        background-color: #212121;
+        scroll-behavior: smooth;
+        padding: 0;
+        margin: 0;
+        color: #fff;
+        overflow-x: hidden;
+      } *::-webkit-scrollbar {
+        /* no more scrollbars L BOZO + RATIOOOOOO (im very tired is 4:45 am) */
+        display: none;
+        user-select: none;
+      } #output {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50vw;
+      } #output button {
+        width: 90%;
+        /* center inside container */
+        margin: 1vw 5%;
+      } p, h1, h3, label {
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 500;
+      } p, label {
+        word-break: break-word;
+        margin: 1vw 1vh;
+        font-size: 1rem;
+        width: 100%;
+      } h3 {
+        font-size: 1.25rem;
+      }
+
+      #sidemenu {
+        position: fixed;
+        width: 50vw;
+        height: 100vh;
+        float: right;
+        left: 50vw;
+        filter: none;
+        opacity: 1;
+        transition: left 2s ease;
+      } #sidemenu.hidden {
+        display: block;
+        left: 100vw;
+        transition: left 2s ease;
+      } .puzzle {
+        width: 84%;
+        height: 84%;
+        margin: 3%;
+        padding: 5%;
+        background-color: #1b1b1b;
+        overflow-x: hidden;
+      } .puzzle h1 {
+        margin: 0;
+      }
+      
+      #puzzle001-canvas {
+        /* center */
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        aspect-ratio: 1449/1746;
+      }
+
+      .bold {
+        font-weight: 700;
+      }
+      .red { color: #bb2525; } .yellow { color: #97992c; } .green { color: #44aa44; }
+      /* Maybe use these? */
+      .blue { color: #2c2cbb; } .purple { color: #7a2cbb; } .cyan { color: #2cbbbb; }
+
+      .grey { color: #999; }
+
+      button {
+        word-break: break-word;
+        background-color: #212121;
+        border: 1px solid #fff;
+        color: #fff;
+        padding: 1vw 1vh;
+        margin: 1vw 1vh;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1rem;
+        width: 50%;
+        transition: background-color 0.5s ease;
+        cursor: pointer;
+      } button:hover {
+        background-color: #fff;
+        color: #212121;
+      } button:active {
+        /* maybe keep this */
+        transition: none;
+        background-color: #212121;
+        color: #fff;
+      } .enabled {
+        background-color: #fff;
+        color: #212121;
+      } .enabled:hover {
+        background-color: #212121;
+        color: #fff;
+      } .destructive:hover {
+        background-color: #701616;
+        color: #ccc;
+        border-color: #ccc;
+      } .destructive:active {
+        background-color: #611212;
+        color: #ccc;
+        border-color: #ccc;
+      }
+
+      /* Settings */
+      #settings-button {
+        position: fixed;
+        top: 1vh;
+        right: 1vw;
+        z-index: 10;
+        cursor: pointer;
+        width: 3vw;
+        height: 3vw;
+        background: none;
+        border: none;
+        padding: 0;
+      } #settings-button img {
+        width: 100%;
+        height: 100%;
+        opacity: 40%;
+        transition: opacity 1s ease;
+      } #settings-button img:hover {
+        opacity: 100%;
+      } #settings-menu {
+        padding: 1vh 1vw;
+        z-index: 100;
+        position: fixed;
+        top: 5vh;
+        left: 10vw;
+        width: 80vw;
+        height: 90vh;
+        
+        background-color: #212121;
+      } .close-button {
+        position: absolute;
+        bottom: 1vh;
+        float: left;
+      } #settings-menu button {
+        float: right;
+      } #settings-clickout {
+        z-index: 99;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+
+        background-color: #000;
+        opacity: 0.5;
+      } .setting {
+        /* align items vertically */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        margin: 1vh 1vw;
+        height: 12vh;
+      } .setting button {
+        margin: 0;
+      } #settings-menu input:not(input[type="text"]) {
+        width: 50%;
+        /* style slider as white line with hollow circle slider */
+        appearance: none;
+        /* width: 100%; */
+        height: 1vh;
+        background: #aaa;
+        outline: none;
+        border-radius: 6px;
+        /* hollow circle as slider */
+        cursor: pointer;
+        transition: background 0.5s ease;
+      }
+      #settings-menu input[type="text"] {
+        background-color: #212121;
+        border: 1px solid #fff;
+        color: #fff;
+        padding: 1vw 1vh;
+        margin: 1vw 1vh;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1rem;
+        width: 48%;
+        transition: background-color 0.5s ease;
+        outline: none;
+      }
+      #settings-menu input:not(input[type="text"]):hover {
+        background: #fff;
+      }
+      #settings-menu input::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 4vh;
+        height: 4vh;
+        background-color: rgba(255, 255, 255, 0);
+        border: 2px solid #aaa;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: width 0.5s ease, height 0.5s ease, background-color 0.5s ease, border 0.5s ease;
+      }
+      #settings-menu input:hover::-webkit-slider-thumb {
+        width: 5vh;
+        height: 5vh;
+        border: 2px solid #fff;
+        background-color: rgba(255, 255, 255, 1);
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      .puzzleList {
+        background-color: #313131;
+        padding: 1vh 1vw;
+      }
+      /* dropdown styled to match with buttons */
+      select {
+        background-color: #212121;
+        border: 1px solid #fff;
+        color: #fff;
+        padding: 1vw 1vh;
+        margin: 1vw 1vh;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1rem;
+        width: 25%;
+        transition: background-color 0.5s ease;
+        cursor: pointer;
+        outline: none;
+      } select:hover {
+        background-color: #fff;
+        color: #212121;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      } table, th, td {
+        border: 1px solid #fff;
+        /* same font as p */
+        font-family: 'Roboto Mono', monospace;
+        
+      } th, td {
+        width: 2vw;
+        height: 2vh;
+        font-size: 1.5rem;
+        text-align: center;
+      } .dots {
+        width: 4vw;
+      }
+      .red-dot {
+        width: 10px;
+        height: 10px;
+        background-color: #bb2525; /* Adjust the color if needed */
+        border-radius: 50%;
+        margin-right: 0.5vh; /* Adjust the spacing between dots */
+        display: inline-block; /* Display dots side by side */
+      }
+      .blue-dot {
+        width: 10px;
+        height: 10px;
+        background-color: #2c2cbb; /* Adjust the color if needed */
+        border-radius: 50%;
+        margin-right: 0.5vh; /* Adjust the spacing between dots */
+        display: inline-block; /* Display dots side by side */
+      }
+      .puzzle input {
+        background-color: #212121;
+        border: 1px solid #fff;
+        color: #fff;
+        padding: 1vw 1vh;
+        margin: 1vw 1vh;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1rem;
+        width: 25%;
+        transition: background-color 0.5s ease;
+        outline: none;
+      }
+
+      #titlescreen {  
+        background-color: #212121;
+        background-image: url("assets/clay-main.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 50;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        padding: 0 1vw;
+        overflow: hidden;
+      } .title-door {
+        position: absolute;
+        left: 14.8vw;
+        top: 17vh;
+        width: 22vw;
+        height: 82vh;
+        padding: 1vh 1vw;
+        /* align first child to center */
+      } .title-door h1 {
+        color: black;
+      } .title-door h1:first-child {
+        margin-bottom: 0;
+        font-size: 1.75rem;
+      } .title-door h1:nth-child(2) {
+        margin-top: 1vh;
+      } .title-door button {
+        width: 75%;
+        margin-left: 0;
+        background-color: transparent;
+        color: black;
+        border: 2px solid black;
+        transition: background-color 1s ease, color 1s ease;
+      } .title-door button:hover {
+        background-color: black;
+        color: white;
+      } .title-door button:disabled {
+        background-color: transparent;
+        color: #888;
+        border: 2px solid #888;
+        cursor: default;
+      } .title-door p {
+        color: black;
+        position: absolute;
+        bottom: 4%;
+        margin: -2%;
+        width: 100%;
+        text-align: center;
+      }
+      
+      #puzzle005 input[type="checkbox"], #puzzle006 input[type="checkbox"] {
+        appearance: none;
+        outline: none;
+        border: none;
+        background: none;
+        width: 2vw;
+        height: 2vw;
+        margin: 1vw;
+        padding: 0;
+        cursor: pointer;
+      } #puzzle005 input[type="checkbox"]:before, #puzzle006 input[type="checkbox"]:before {
+        content: "";
+        display: inline-block;
+        width: 2vw;
+        height: 2vw;
+        padding: 0;
+        font-size: 2.3rem;
+        line-height: 1rem;
+        background-color: #212121;
+        border: 1px solid #fff;
+        transition: color 0.5s ease;
+        color: #212121;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1rem;
+        cursor: pointer;
+        outline: none;
+        user-select: none;
+      } #puzzle005 input[type="checkbox"]:checked:before, #puzzle006 input[type="checkbox"]:checked:before {
+        content: "✔";
+        text-align: center;
+        line-height: 1rem;
+        font-size: 2.3rem;
+        background-color: #212121;
+        color: #ff0000;
+      } #puzzle005 label, #puzzle006 label {
+        cursor: pointer;
+        user-select: none;
+        display:inline-block;
+        margin: 1vw;
+        width: 80%;
+        height: 2vw;
+        vertical-align: top;
+      }
+
+      #customAlert {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 1000;
+      }
+      #customAlert.hidden {
+        display: none;
+      }
+
+      #alertContent {
+        background-color: #ddd;
+        padding: 20px;
+        text-align: center;
+        border-radius: 8px;
+        width: 25vw;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      }
+      #alertContent h3, #alertContent p {
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      #alertTitle {
+        color: #212121;
+      }
+
+      #alertMessage {
+        color: #555;
+      }
+
+      #alertButtons {
+        /* center */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+      }
+
+      #closeAlert, #cancelAlert {
+        /* side by side */
+        display: inline-block;
+        background-color: #212121;
+        color: #fff;
+        padding: 10px 20px;
+        margin-top: 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      #cancelAlert {
+        background-color: #bbb;
+        color: #212121;
+      }
+      #cancelAlert:hover {
+        background-color: #aaa;
+      }
+      #cancelAlert.hidden, #alertButtons.hidden {
+        display: none;
+      }
+
+      #closeAlert:hover {
+        background-color: #000;
+      }
+      #closeAlert:disabled, #cancelAlert:disabled {
+        display: none;
+      }
+
+      #alertInput {
+        background-color: #eee;
+        border: 1px solid #212121;
+        color: #212121;
+        padding: 1vw 1vh;
+        margin: 1vw 1vh;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1rem;
+        width: 80%;
+        margin-bottom: 0;
+        transition: background-color 0.5s ease;
+        outline: none;
+      }
+
+      a {
+        /* on white bg, style to match theme */
+        color: #212121;
+        text-decoration: none;
+        transition: color 0.5s ease;
+        font-weight: bold;
+      } a:hover {
+        text-decoration: underline;
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="titlescreen">
+      <div class="title-door">
+        <h1>The</h1>
+        <h1>Clay Files</h1>
+        <br><br>
+        <button id="begin" onclick="newGame()">New Game</button>
+        <button id="continue" onclick="continueGame()" disabled>Continue</button>
+        <button id="credits" onclick="credits()">Credits</button>
+        <p>A game by Kaius</p>
+      </div>
+    </div>
+    <div class="hidden">
+      <audio id="typewriterfull" preload="auto"><source src="assets/typewriter-full.mp3" type="audio/mpeg"></audio>
+      <audio id="newline" preload="auto"><source src="assets/newline.mp3" type="audio/mpeg"></audio>
+      <audio id="returnbell" preload="auto"><source src="assets/return-bell.mp3" type="audio/mpeg"></audio>
+      <audio id="lift" preload="auto"><source src="assets/lift.mp3" type="audio/mpeg"></audio>
+      <audio id="click0" preload="auto"><source src="assets/click0.mp3" type="audio/mpeg"></audio>
+      <audio id="click1" preload="auto"><source src="assets/click1.mp3" type="audio/mpeg"></audio>
+      <audio id="click2" preload="auto"><source src="assets/click2.mp3" type="audio/mpeg"></audio>
+      <audio id="beep" preload="auto"><source src="assets/bomb-timer.mp3" type="audio/mpeg"></audio>
+      <audio id="longBeep" preload="auto"><source src="assets/explodedlol.mp3" type="audio/mpeg"></audio>
+      <audio id="chicken" preload="auto"><source src="assets/chicken.mp3" type="audio/mpeg"></audio>
+      <audio id="chickenNewline" preload="auto"><source src="assets/chicken-newline.mp3" type="audio/mpeg"></audio>
+      <audio id="chick0" preload="auto"><source src="assets/chick0.mp3" type="audio/mpeg"></audio>
+      <audio id="chick1" preload="auto"><source src="assets/chick1.mp3" type="audio/mpeg"></audio>
+      <audio id="chick2" preload="auto"><source src="assets/chick2.mp3" type="audio/mpeg"></audio>
+      <img src="assets/allen-pond.png" id="allen-pond">
+      <img src="assets/allen-red.png" id="allen-red">
+      <img src="assets/allen-green.png" id="allen-green">
+      <img src="assets/bo-at.png" id="bo-at">
+    </div>
+    <button id="settings-button" onclick="toggleSettingsMenu()">
+      <img src="assets/settings.png" alt="Settings">
+    </button>
+    <div id="settings-clickout" class="hidden" onclick="toggleSettingsMenu()"></div>
+    <div id="settings-menu" class="hidden">
+      <h1>Settings</h1>
+      <div class="setting">
+        <label>Your name: </label>
+        <input type="text" value="Saul" placeholder="Saul" id="playerName" maxlength="15" onkeydown="settings.playerName.change()">
+      </div>
+      <div class="setting">
+        <label>Saul mode: </label>
+        <button onclick="settings.hardMode.change()" id="hardMode">Disabled</button>
+      </div>
+      <div class="setting">
+        <label>Reset Savedata: </label>
+        <button onclick="settings.reset.change()" id="reset" class="destructive">Reset</button>
+      </div>
+      <div class="setting">
+        <label>Audio Volume: </label>
+        <input onchange="settings.volume.change()" type="range" min="0" max="100" value="95" id="volume">
+      </div>
+      <div class="setting">
+        <p id="settingsVer">Version 1.22.3</p>
+        <button onclick="window.location.reload()">Main menu</button>
+      </div>
+
+      <button onclick="toggleSettingsMenu()" class="close-button">Close</button>
+    </div>
+    <div id="output">
+      <div id="options" class="hidden">
+        <button id="opt1" onclick="opt(0)">Option I</button>
+        <button id="opt2" onclick="opt(1)">Option II</button>
+      </div>
+    </div>
+    <div id="sidemenu" class="hidden">
+      <div id="puzzle001" class="puzzle">
+        <h1>Puzzle #001</h1>
+        <br><br>
+        <p>The detective has nearly made it to the town, but first he must cross a small pond (pictured below). But there's a problem! The pond is infested with alligators!</p>
+        <p>There are 2 alligators, to be exact. And they happent to exhibit a very strange behavior: Whenever the inspector moves, one alligator will move in his same direction, and the other will move in the opposite direcction.</p>
+        <p>Neither the alligators nor the detective's rowboat can leave the pond. The <em class="red bold">red</em> alligator symbolizes the one that moves in the same direction as the detective, and the <em class="green bold">green</em> alligator represents the one that moves opposite the detective. The detective is marked by the rowboat.</p>
+        <p>The detective is <em class="red bold">eaten</em> is he is in or directly adjacent to a square containing an alligator (not including diagonals). Use the arrow keys to navigate the detective across the pond.</p>
+        <p>Can you get the detective from <em class="green bold">START</em> to <em class="green bold">FINISH</em> without being eaten?</p>
+        <canvas id="puzzle001-canvas"></canvas>
+      </div>
+      <div id="puzzle002" class="puzzle">
+        <h1>Puzzle #002</h1>
+        <br><br>
+        <p>The chief of police has interviewed several suspects, but unfortunately, their alibis didn't yield any helpful information.</p>
+        <p>However, Mr. Kane gave each of the suspects a chance to give up information about the other suspects.</p>
+        <p>Below is a list of the suspects, one of whom are lying, and their statements. Can you determine who the liar is?</p>
+        <div id="puzzle002-suspects" class="puzzleList">
+          <p>A) B is telling the truth.</p>
+          <p>B) C and E are both telling the truth.</p>
+          <p>C) B is telling the truth.</p>
+          <p>D) A is lying.</p>
+          <p>E) D is lying.</p>
+        </div>
+        <br>
+        <label>Liar: </label>
+        <!-- dropdown -->
+        <select id="puzzle002-liar">
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
+        </select>
+        <button onclick="Puzzles[2].check()">Check</button>
+      </div>
+      <div id="puzzle003" class="puzzle">
+        <h1>Puzzle #003</h1>
+        <br><br>
+        <p>The detective found a secret note hidden within professor Sterling's closet. It tells of a secret laboratory hidden inside his house, and contains clues as to the location of the entrance to the lab.</p>
+        <p>There are five rooms in the house, all in a single-file line, side-by-side. The are, in no particular order: the bedroom, the living room, the kitchen, the entry, and the study. One of them contains the entrance to the secret lab.</p>
+        <p>Can you figure out the location of the lab's entrance using the clues provided?</p>
+        <div id="puzzle003-list" class="puzzleList">
+          <p>1. The bedroom and entry have one room in between them.</p>
+          <p>2. The living room is to the far right of the house.</p>
+          <p>3. The kitchen is directly adjacent to the living room, but not the study.</p>
+          <p>4. The entry is not to the far left of the house.</p>
+          <p>5. The room containing the lab's entrance is directly adjacent to the study but not the kitchen.</p>
+        </div>
+        <br>
+        <label>Lab entrance: </label>
+        <!-- dropdown -->
+        <select id="puzzle003-select">
+          <option value="A">Bedroom</option>
+          <option value="B">Living Room</option>
+          <option value="C">Kitchen</option>
+          <option value="D">Entry</option>
+          <option value="E">Study</option>
+        </select>
+        <button onclick="Puzzles[3].check()">Check</button>
+      </div>
+      <div id="puzzle004" class="puzzle">
+        <h1>Puzzle #004</h1>
+        <br><br>
+        <p>Finally, a promising lead! The only thing standing between it and the detective is a massive steel door with a combination lock.</p>
+        <p>Fortunately, professor Sterling left some clues as to the code. Can you guess the combination?</p>
+        <br>
+        <p>The code is 4 digits long, and each digit ranges from 1 to 5, and no digit is used twice.</p>
+        <p>Below, the colored marks next to each row of numbers indicates how similar that row is to the correct combination, in no particular order.</p>
+        <p>Each <em class="blue bold">blue</em> mark indicates a digit somewhere in that row that matches one in the solution, but is not in the correct position.</p>
+        <p>Each <em class="red bold">red</em> mark indicates a digit that is in the correct position.</p>
+        <br>
+        <table>
+          <tr>
+            <td>1</td><td>5</td><td>2</td><td>3</td>
+            <td class="dots">
+              <div class="red-dot"></div>
+              <div class="blue-dot"></div>
+              <div class="blue-dot"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>5</td><td>2</td><td>1</td><td>4</td>
+            <td class="dots">
+              <div class="blue-dot"></div>
+              <div class="blue-dot"></div>
+              <div class="blue-dot"></div>
+              <div class="blue-dot"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td><td>5</td><td>1</td><td>4</td>
+            <td class="dots">
+              <!-- one red dot here -->
+              <div class="red-dot"></div>
+              <div class="red-dot"></div>
+              <div class="blue-dot"></div>
+              <div class="blue-dot"></div>
+            </td>
+          </tr>
+        </table>
+        <br>
+        <label>Combination: </label>
+        <input type="number" id="puzzle004-input" min="0" max="9999" value="1111">
+        <br>
+        <button onclick="Puzzles[4].check()">Check</button>
+      </div>
+      <div id="puzzle005" class="puzzle">
+        <h1>Puzzle #005</h1>
+        <br><br>
+        <p>So close to finally uncovering the key to this whole case, detective Clay and Mr. Kane have located a chemical formula that will give some insight into professor Sterling's research.</p>
+        <p>Unfortunately, the professor encoded the recipe into a puzzle, so it wouldn't get into the wrong hands. Can you recreate the chemical?</p>
+        <br>
+        <p>There are two chemicals created from this reaction: the <em class="cyan">solution</em> and the <em class="green">byproduct</em>. Below are 7 ingredients, each with a different weight.</p>
+        <p>The weight of the <em class="cyan">solution</em> will be a total sum of 29.</p>
+        <p>The weight of the <em class="green">byproduct</em> will be a total of 30.</p>
+        <br>
+        <p>Combine the ingredients (labelled A-G) to create the <em class="cyan">solution</em> and the <em class="green">byproduct</em>. No ingredient will be used twice, and one will <strong>not</strong> be used at all.</p>
+        <div id="puzzle005-list" class="puzzleList">
+          <h3><em class="cyan">Solution</em> ingredients:</h3>
+          <input type="checkbox" id="puzzle005-A0" value="12"><label for="puzzle005-A0">A: 12</label><br>
+          <input type="checkbox" id="puzzle005-B0" value="10"><label for="puzzle005-B0">B: 10</label><br>
+          <input type="checkbox" id="puzzle005-C0" value="3"><label for="puzzle005-C0">C: 3</label><br>
+          <input type="checkbox" id="puzzle005-D0" value="19"><label for="puzzle005-D0">D: 19</label><br>
+          <input type="checkbox" id="puzzle005-E0" value="8"><label for="puzzle005-E0">E: 8</label><br>
+          <input type="checkbox" id="puzzle005-F0" value="11"><label for="puzzle005-F0">F: 11</label><br>
+          <input type="checkbox" id="puzzle005-G0" value="4"><label for="puzzle005-G0">G: 4</label><br>
+        </div>
+        <br>
+        <div id="puzzle005-list" class="puzzleList">
+          <h3><em class="green">Byproduct</em> ingredients:</h3>
+          <input type="checkbox" id="puzzle005-A1" value="12"><label for="puzzle005-A1">A: 12</label><br>
+          <input type="checkbox" id="puzzle005-B1" value="10"><label for="puzzle005-B1">B: 10</label><br>
+          <input type="checkbox" id="puzzle005-C1" value="3"><label for="puzzle005-C1">C: 3</label><br>
+          <input type="checkbox" id="puzzle005-D1" value="19"><label for="puzzle005-D1">D: 19</label><br>
+          <input type="checkbox" id="puzzle005-E1" value="8"><label for="puzzle005-E1">E: 8</label><br>
+          <input type="checkbox" id="puzzle005-F1" value="11"><label for="puzzle005-F1">F: 11</label><br>
+          <input type="checkbox" id="puzzle005-G1" value="4"><label for="puzzle005-G1">G: 4</label><br>
+        </div>
+        <br>
+        <button onclick="Puzzles[5].check()">Check</button>
+      </div>
+      <div id="puzzle006" class="puzzle">
+        <h1>Puzzle #006: <span class="red bold" id="puzzle006-clock">4:36</span></h1>
+        <br><br>
+        <p>The town has been rigged with a very large amount of explosives, set to detonate in just a few minutes! Luckily, the detective has located the bomb, and might be able to defuse it.</p>
+        <p>The bomb is made such that after cutting each wire, you are given instructions about which other wires you should or should not cut. To defuse the bomb, you must cut exactly two wires.</p>
+        <br>
+        <div class="puzzleList">
+          <h3>Instructions:</h3>
+          <p>You must cut exactly two wires to defuse the bomb.</p>
+          <br>
+          <p>If you cut the <span class="red bold">red</span> wire, you must also cut the <span class="green bold">green</span> wire.</p>
+          <p>If you cut the <span class="blue bold">blue</span> wire, you must <em>not</em> cut the <span class="red bold">red</span> wire.</p>
+          <p>If you cut the <span class="green bold">green</span> wire, you must cut the <span class="yellow bold">yellow</span> wire as well, but must <em>not</em> cut the <span class="grey bold">white</span> wire.</p>
+          <p>If you cut the <span class="yellow bold">yellow</span> wire, you must cut the <span class="blue bold">blue</span> wire, too.</p>
+          <p>If you cut the <span class="grey bold">white</span> wire, you must cut the <span class="yellow bold">yellow</span> wire.</p>
+        </div>
+        <br>
+        <p>Which wires do you cut?</p>
+        <br>
+        <div class="puzzleList">
+          <h3>Bomb wires:</h3>
+          <input type="checkbox" id="puzzle006-red" value="12"><label for="puzzle006-red"><span class="red">Red</span></label><br>
+          <input type="checkbox" id="puzzle006-blue" value="10"><label for="puzzle006-blue"><span class="blue">Blue</span></label><br>
+          <input type="checkbox" id="puzzle006-green" value="3"><label for="puzzle006-green"><span class="green">Green</span></label><br>
+          <input type="checkbox" id="puzzle006-yellow" value="19"><label for="puzzle006-yellow"><span class="yellow">Yellow</span></label><br>
+          <input type="checkbox" id="puzzle006-white" value="8"><label for="puzzle006-white"><span class="grey">White</span></label><br>
+        </div>
+        <br>
+        <button onclick="Puzzles[6].check()">Check</button>
+      </div>
+    </div>
+
+    <div id="customAlert" class="hidden">
+      <div id="alertContent">
+        <h3 id="alertTitle">Alert Title</h2>
+        <p id="alertMessage">Alert message.</p>
+        <br>
+        <!-- text input -->
+        <input type="text" id="alertInput" onkeydown="promptEnter(event)">
+        <div id="alertButtons">
+          <button id="closeAlert" onclick="closeAlert()">OK</button>
+          <button id="cancelAlert" onclick="cancelAlert()" class="hidden">No</button>
+        </div>
+      </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+    <script src="ui.js"></script>
+    <script src="puzzles.js"></script>
+  </body>
+</html>
